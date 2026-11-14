@@ -1,4 +1,4 @@
-import json, os, requests
+import json, os, time, requests
 from .config import GEMINI_MODEL, MAX_ITEMS_TO_AI, PAGE_HASHTAG
 
 PROMPT = """Tum "Single Society" naam ke Instagram news page ke head writer ho.
@@ -51,18 +51,29 @@ def write(series_name, items, recent_titles):
         page_tag=PAGE_HASHTAG,
         items=listing,
     )
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
-    r = requests.post(
-        url,
-        params={"key": key},
-        json={
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"temperature": 0.9, "responseMimeType": "application/json"},
-        },
-        timeout=90,
-    )
-    r.raise_for_status()
-    text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+    body = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"temperature": 0.9, "responseMimeType": "application/json"},
+    }
+    text, last_err = None, None
+    for model in [GEMINI_MODEL, "gemini-flash-lite-latest", "gemini-flash-latest"]:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+        for attempt in range(2):
+            try:
+                r = requests.post(url, params={"key": key}, json=body, timeout=240)
+                if r.status_code in (404, 400):
+                    last_err = f"{model}: {r.status_code} {r.text[:200]}"; break
+                r.raise_for_status()
+                text = r.json()["candidates"][0]["content"]["parts"][-1]["text"]
+                print("AI model used:", model)
+                break
+            except Exception as e:
+                last_err = f"{model}: {e}"
+                time.sleep(10)
+        if text:
+            break
+    if not text:
+        raise RuntimeError(f"Gemini failed: {last_err}")
     data = json.loads(text)
     if data.get("skip"):
         return None, None
