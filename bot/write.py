@@ -1,0 +1,77 @@
+import json, os, requests
+from .config import GEMINI_MODEL, MAX_ITEMS_TO_AI, PAGE_HASHTAG
+
+PROMPT = """Tum "Single Society" naam ke Instagram news page ke head writer ho.
+Page ka style: har khabar funny aur ekdum aasan Hinglish (Roman Hindi) mein, taaki 10 second mein samajh aa jaye.
+Series: {series}
+
+Neeche aaj ki khabrein hain (title, source, summary). Inme se SIRF EK chuno jo:
+- India mein sabse zyada log share karenge (paisa, students, cricket, filmein, desh ki badi khabar)
+- Pichhli posts se alag ho: {recent}
+
+KADE NIYAM:
+1. Sirf wahi facts aur numbers likho jo neeche diye text mein hain. Koi number apne se mat banao.
+2. Maut, hadsa, aatank, aparadh, aapda, beemari -> "serious": true, aur koi mazaak nahi (chat aur joke khaali chhodo).
+3. Dharm, jaati, aurat, kisi neta/celebrity par personal mazaak kabhi nahi. Mazaak sirf situation par.
+4. Politics mein kisi party ka paksh mat lo.
+5. Agar koi bhi khabar inme fit na ho to {{"skip": true}} do.
+
+Sirf yeh JSON do:
+{{
+ "pick": <chuni khabar ka index number>,
+ "serious": false,
+ "tag": "<2-3 shabd, CAPS, jaise DOODH MEHENGA>",
+ "line1": "<headline ka chhota hissa, max 22 akshar>",
+ "line2": "<sabse bada punch, CAPS, max 12 akshar>",
+ "line3": "<headline ka ant, CAPS, max 18 akshar>",
+ "sub": "<ek line mein asli khabar, max 60 akshar>",
+ "stats": [{{"n": "<number ya chhota fact, max 7 akshar>", "t": "<matlab, max 22 akshar>"}}],  // 2 se 4, sirf text mein diye facts
+ "chat": [{{"who": "<BETA/MUMMY/STUDENT/BOSS etc>", "say": "<max 48 akshar>"}}, {{"who": "...", "say": "..."}}],
+ "asar_label": "TUMPE ASAR",
+ "asar": "<aam aadmi par asar ya funny takeaway, max 52 akshar>",
+ "icon": "<ek: milk, money, cricket, film, exam, mic, city, fuel, phone, alert>",
+ "caption": "<Instagram caption: hook line, 3-5 emoji bullets mein facts, ek funny line, ek sawaal jisse log comment/tag karein>",
+ "hashtags": ["<5 hashtags, aakhri {page_tag} ho>"]
+}}
+
+KHABREIN:
+{items}
+"""
+
+
+def write(series_name, items, recent_titles):
+    key = os.environ["GEMINI_API_KEY"]
+    items = items[:MAX_ITEMS_TO_AI]
+    listing = "\n".join(
+        f"[{i}] {it['title']} | {it['source']} | {it['summary']}" for i, it in enumerate(items)
+    )
+    prompt = PROMPT.format(
+        series=series_name,
+        recent="; ".join(recent_titles[-15:]) or "koi nahi",
+        page_tag=PAGE_HASHTAG,
+        items=listing,
+    )
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+    r = requests.post(
+        url,
+        params={"key": key},
+        json={
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 0.9, "responseMimeType": "application/json"},
+        },
+        timeout=90,
+    )
+    r.raise_for_status()
+    text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+    data = json.loads(text)
+    if data.get("skip"):
+        return None, None
+    item = items[int(data["pick"])]
+    data["stats"] = (data.get("stats") or [])[:4]
+    data["chat"] = (data.get("chat") or [])[:2]
+    tags = [t if t.startswith("#") else "#" + t for t in data.get("hashtags", [])][:5]
+    if PAGE_HASHTAG not in tags:
+        tags = tags[:4] + [PAGE_HASHTAG]
+    data["hashtags"] = tags
+    data["source_text"] = f"Source: {item['source'] or 'Google News'}"
+    return data, item
