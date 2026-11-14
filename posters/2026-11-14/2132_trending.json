@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 2,
+  "serious": false,
+  "tag": "FLIGHT FARE HIKE",
+  "line1": "HAWAEE SAFAR",
+  "line2": "HUA DUGUNA",
+  "line3": "15 DIN MEIN 50%",
+  "sub": "Delhi se Bihar, Mumbai, Bengaluru ka hawai safar hua mahanga.",
+  "stats": [
+   {
+    "n": "50%",
+    "t": "15 din me badha kiraya"
+   },
+   {
+    "n": "77",
+    "t": "Delhi-Bihar bus shuru"
+   }
+  ],
+  "chat": [
+   {
+    "who": "STUDENT",
+    "say": "Sir flight ka budget hila diya."
+   },
+   {
+    "who": "BOSS",
+    "say": "Toh ab train se aana jana karo."
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Chhutti manane ki sochi thi, ab jeb khali ho jayegi.",
+  "icon": "plane",
+  "caption": "✈️ Hawai safar hua mahanga!\n\n• 15 din me 50% badha kiraya\n• Delhi-Bihar ke liye 77 basen shuru\n\nJeb par pad gaya seedha bojh! 💸\n\nKiska ticket book karne ki soch rahe ho? Tag karo!",
+  "hashtags": [
+   "#FlightFare",
+   "#TravelUpdate",
+   "#AviationNews",
+   "#Inflation",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: Navbharat Live"
+ },
+ "item": {
+  "title": "दिल्ली से बिहार, मुंबई, बेंगलुरु, अहमदाबाद और हैदराबाद का हवाई सफर हुआ दोगुना, 15 दिन में 50% तक बढ़ा किराया",
+  "source": "Navbharat Live",
+  "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWTZWRU9Oa3pHc1FTYW1UZG9IZEFvY0lWc29SbE1yUjZlMXp5T0E4UFZGMTlITDhjODQ0ZVJ6Tks2bl85aEVXei1Kc2plTnpxSklTc0czNFp1d2h6UHZnYjBxWjlCRnYzVlVmNGhHcldraTlFeW51dUZUWWNmbzh4WE0ybFk4YThoaHQyZU5URmIzMkRCaGVNcmhoZVNERjBkWXJweWh5MGhhTVhRRGpXU0p0d1FlTzJMNE9vQnlkRVZZTTlOanF3?oc=5",
+  "published": "Sat, 14 Nov 2026 04:41:52 GMT",
+  "summary": "दिल्ली से बिहार, मुंबई, बेंगलुरु, अहमदाबाद और हैदराबाद का हवाई सफर हुआ दोगुना, 15 दिन में 50% तक बढ़ा किराया Navbharat Live छठ पर घर जाने की टेंशन खत्म! दिल्ली-बिहार के बीच 77 बसें शुरू, किराया भी सस्ता AajTak छठ बाद पटना से दिल्ली का किराया 34 हजार पार, देखें बाकी शहरों का रेट Prabhat Khabar बिहार "
+ }
+}
