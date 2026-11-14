@@ -15,6 +15,10 @@ KADE NIYAM:
 3. Dharm, jaati, aurat, kisi neta/celebrity par personal mazaak kabhi nahi. Mazaak sirf situation par.
 4. Politics mein kisi party ka paksh mat lo.
 5. Agar koi bhi khabar inme fit na ho to {{"skip": true}} do.
+6. SAARA text (line1, line2, line3, sub, stats, chat, asar) sirf Roman Hinglish (English letters) mein likho. Devanagari ya Gurmukhi/Punjabi akshar kabhi nahi, aur ek line mein do script mix mat karo.
+7. Wahi film/insaan/ghatna dobara mat chuno jo pichhli posts mein aa chuki hai (naam ya topic same ho to alag khabar lo).
+8. Stats mein sirf asli number/tareekh jo text mein hai ("9ve din" jaisa filler ya "Kiya naya record" jaisa khaali matlab nahi). Number na ho to sirf 2 stats do.
+9. Caption ka aakhri sawaal aisa ho ki log share/save karein ya dost ko tag karein ("Apne dost ko tag karo jo...").
 
 Sirf yeh JSON do:
 {{
@@ -77,6 +81,9 @@ def write(series_name, items, recent_titles):
     data = json.loads(text)
     if data.get("skip"):
         return None, None
+    blob = json.dumps({k: data.get(k) for k in ("line1", "line2", "line3", "sub", "stats", "chat", "asar")}, ensure_ascii=False)
+    if any("\u0a00" <= ch <= "\u0a7f" for ch in blob):  # Gurmukhi glitch: font renders badly
+        print("AI output had Gurmukhi text: skipping slot"); return None, None
     item = items[int(data["pick"])]
     data["stats"] = (data.get("stats") or [])[:4]
     data["chat"] = (data.get("chat") or [])[:2]
