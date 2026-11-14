@@ -9,6 +9,7 @@ from .fetch import fetch
 from .write import write
 from .render import render
 from . import publish as ig
+from . import telegram as tg
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "data" / "posted.json"
@@ -71,6 +72,13 @@ def main():
             media_id = ig.publish(url, caption); status = "posted"
         except Exception as e:
             status = f"publish_failed: {e}"[:200]
+            print(status, file=sys.stderr)
+
+    if tg.ready():
+        try:
+            tg.send(str(png), caption); status += "+telegram"
+        except Exception as e:
+            status += f"+telegram_failed: {e}"[:120]
             print(status, file=sys.stderr)
 
     new = not LOG.exists()
