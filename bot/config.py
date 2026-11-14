@@ -42,5 +42,5 @@ SLOTS = {
     "2200": ["trending"],
 }
 
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-flash-latest")
 MAX_ITEMS_TO_AI = 12
