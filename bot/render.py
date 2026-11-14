@@ -15,6 +15,7 @@ ICONS = {
  "mic": f'<rect x="115" y="40" width="100" height="190" rx="50" fill="#FF2E3B" {_S}/><path d="M80 170 Q80 280 165 280 Q250 280 250 170" fill="none" {_S}/><path d="M165 280 V350 M110 360 H220" {_S} fill="none"/>',
  "city": f'<rect x="30" y="160" width="90" height="220" fill="#2F7BFF" {_S}/><rect x="120" y="70" width="100" height="310" fill="#fff" {_S}/><rect x="220" y="200" width="80" height="180" fill="#FF2E3B" {_S}/><path d="M150 110 h40 M150 160 h40 M150 210 h40 M150 260 h40" stroke="#111" stroke-width="12"/>',
  "phone": f'<rect x="85" y="30" width="160" height="350" rx="30" fill="#111" {_S}/><rect x="103" y="70" width="124" height="250" rx="10" fill="#2F7BFF"/><circle cx="165" cy="350" r="12" fill="#fff"/>',
+ "plane": f'<g transform="rotate(-30 165 210)"><path d="M150 40 Q165 20 180 40 L182 330 L150 330 Z" fill="#fff" {_S}/><path d="M152 150 L30 230 L30 260 L152 215 Z M178 150 L300 230 L300 260 L178 215 Z" fill="#2F7BFF" {_S}/><path d="M152 300 L105 340 L105 360 L152 345 Z M180 300 L227 340 L227 360 L180 345 Z" fill="#2F7BFF" {_S}/></g>',
  "alert": f'<path d="M165 40 L310 360 H20 Z" fill="#FFD400" {_S}/><rect x="150" y="140" width="30" height="130" rx="12" fill="#111"/><circle cx="165" cy="315" r="20" fill="#111"/>',
 }
 

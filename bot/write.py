@@ -29,7 +29,7 @@ Sirf yeh JSON do:
  "chat": [{{"who": "<BETA/MUMMY/STUDENT/BOSS etc>", "say": "<max 48 akshar>"}}, {{"who": "...", "say": "..."}}],
  "asar_label": "TUMPE ASAR",
  "asar": "<aam aadmi par asar ya funny takeaway, max 52 akshar>",
- "icon": "<ek: milk, money, cricket, film, exam, mic, city, fuel, phone, alert>",
+ "icon": "<ek: milk, money, cricket, film, exam, mic, city, fuel, phone, plane, alert>",
  "caption": "<Instagram caption: hook line, 3-5 emoji bullets mein facts, ek funny line, ek sawaal jisse log comment/tag karein>",
  "hashtags": ["<5 hashtags, aakhri {page_tag} ho>"]
 }}
