@@ -1,6 +1,6 @@
 # Single Society: Auto News Poster Bot
 
-Ye bot roz 7 baar (IST 8:00, 10:30, 1:00, 3:30, 6:00, 8:00, 10:00) trending khabar uthata hai, Gemini AI se funny Hinglish poster aur caption likhwata hai, poster banata hai aur Instagram pe post karta hai. Ye GitHub Actions pe chalta hai, poori tarah free.
+Ye bot roz 14 baar (har ghante, subah 8 se raat 9 baje tak) trending khabar uthata hai, Gemini AI se funny Hinglish poster aur caption likhwata hai, poster banata hai aur Instagram pe post karta hai. Ye GitHub Actions pe chalta hai, poori tarah free.
 
 Dukh wali khabar (maut, hadsa, aparadh) aaye to bot apne aap **serious dark design** use karta hai, usme koi mazaak nahi hota.
 

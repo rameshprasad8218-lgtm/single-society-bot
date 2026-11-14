@@ -2,14 +2,8 @@ name: Single Society poster
 
 on:
   schedule:
-    # IST 8:00, 10:30, 13:00, 15:30, 18:00, 20:00, 22:00 (written in UTC)
-    - cron: "30 2 * * *"
-    - cron: "0 5 * * *"
-    - cron: "30 7 * * *"
-    - cron: "0 10 * * *"
-    - cron: "30 12 * * *"
-    - cron: "30 14 * * *"
-    - cron: "30 16 * * *"
+    # every hour from 8:00 AM to 9:00 PM IST (14 posts/day), written in UTC
+    - cron: "30 2-15 * * *"
   workflow_dispatch:
     inputs:
       series:

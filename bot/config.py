@@ -32,14 +32,21 @@ SERIES = {
 }
 
 # IST slot -> series rotation (index by day of year)
-SLOTS = {
+SLOTS = {  # 14 posts/day, every hour 8 AM - 9 PM IST
     "0800": ["subah"],
-    "1030": ["mehngai", "exam"],
-    "1300": ["cricket", "bollywood"],
-    "1530": ["shahar"],
-    "1800": ["neta", "trending"],
-    "2000": ["bollywood", "cricket"],
-    "2200": ["trending"],
+    "0900": ["mehngai", "exam"],
+    "1000": ["trending"],
+    "1100": ["cricket", "bollywood"],
+    "1200": ["shahar"],
+    "1300": ["neta", "trending"],
+    "1400": ["bollywood", "cricket"],
+    "1500": ["exam", "mehngai"],
+    "1600": ["trending"],
+    "1700": ["cricket", "bollywood"],
+    "1800": ["neta", "shahar"],
+    "1900": ["bollywood", "trending"],
+    "2000": ["cricket", "mehngai"],
+    "2100": ["trending"],
 }
 
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-flash-latest")
