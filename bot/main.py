@@ -74,6 +74,17 @@ def main():
             status = f"publish_failed: {e}"[:200]
             print(status, file=sys.stderr)
 
+    hook = os.getenv("MAKE_WEBHOOK_URL")
+    if hook and not a.no_publish and status != "posted":
+        import requests
+        repo = os.environ.get("GITHUB_REPOSITORY")
+        url = f"https://raw.githubusercontent.com/{repo}/main/posters/{day}/{stem}.png"
+        try:
+            r = requests.post(hook, json={"image_url": url, "caption": caption, "series": series_key}, timeout=60)
+            status = "sent_to_make" if r.ok else f"make_failed_{r.status_code}"
+        except Exception as e:
+            status = f"make_failed: {e}"[:120]
+
     if tg.ready():
         try:
             tg.send(str(png), caption); status += "+telegram"
