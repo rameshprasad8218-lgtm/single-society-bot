@@ -18,8 +18,11 @@ IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 
 
 def nearest_slot(now):
+    # GitHub cron runs 40-55 min late, so round DOWN to the hour slot (nearest-slot made two
+    # posts land in slot 2100 and skipped subah/neta series entirely).
     hm = now.hour * 60 + now.minute
-    return min(SLOTS, key=lambda s: abs(int(s[:2]) * 60 + int(s[2:]) - hm))
+    past = [s for s in SLOTS if int(s[:2]) * 60 + int(s[2:]) <= hm]
+    return max(past) if past else min(SLOTS)
 
 
 def git(*a):
