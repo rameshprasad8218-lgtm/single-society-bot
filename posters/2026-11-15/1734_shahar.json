@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 1,
+  "serious": false,
+  "tag": "IAS PCS TRANSFER",
+  "line1": "UTTARAKHAND ME",
+  "line2": "30 ADHIKARI",
+  "line3": "BADLE GAYE",
+  "sub": "Uttarakhand me 10 IAS aur 20 PCS officers ke hue badle.",
+  "stats": [
+   {
+    "n": "10",
+    "t": "IAS officers"
+   },
+   {
+    "n": "20",
+    "t": "PCS officers"
+   }
+  ],
+  "chat": [
+   {
+    "who": "STUDENT",
+    "say": "Sir itna transfer dekh kar chakkar aa gaya!"
+   },
+   {
+    "who": "BOSS",
+    "say": "Tum bhi apna transfer chahte ho kya?"
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Officers badle hain, par aapki file fir bhi late hi aayegi.",
+  "icon": "city",
+  "caption": "Uttarakhand mein administrative badlaav! 🏛️\n\n• 10 IAS officers ke huye transfer\n• 20 PCS officers ki nayi tayati\n\nTransfer ki speed dekh kar humara dimag hil gaya! 🤯 Apne us dost ko tag karo jo sarkari naukri ki tayari kar raha hai.",
+  "hashtags": [
+   "#UttarakhandNews",
+   "#IASTransfer",
+   "#PCSTransfer",
+   "#Government",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: Dainik Bhaskar"
+ },
+ "item": {
+  "title": "उत्तराखंड में IAS-PCS अधिकारियों के बम्पर तबादले: 10 आईएएस और 20 पीसीएस अधिकारियों की तैनाती और विभागों में...",
+  "source": "Dainik Bhaskar",
+  "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQY1VDVlgzbTM4UFpfTW9Ud3RWYkhmZTdSWTRlVnlrb2NVSnFPWU9QME1RdGdiY3lmVUJwNlR4S3B4RzZZTm8zcjB6NjRoR1ZTbndjenpERzFWbUp5bDlSbmdOcy1OUkxLczVDSTJnMEJOclIwV0JhRXNicUlSLThJWkFQNGFpaUVrTTdRRk8zWmZOVVA0QXMzRVEtbTcwZ0hqTi1IaGc2bG9xQjFfQmpxd1Rwd0dCNHpCaTM5YUtyaHhLOEJlMGhIbi1yUDRFVU1LT0lV0gHYAUFVX3lxTE81VEpQZWkwU0M4Ny1zRklYa3JMU1dJN0FlOEVhSVlSckVnSFRfX2FQZHFuLWhUZ2lKRVhEUWRkb0V2VzZFaExZNmNOZDZrd1NneExWdWl6eWdDMHBoR2h4Ym9ZeEhuQkdHdmJRemxCd0VkaUxYRUdCaU5fMTZhX1JBaVhjN2tBSzBLdTd2ZWtNa1FPSDRVUzNVc0lXcC1uSEc4aTZHRngtRUY1cUpSazFpNThIclRLMVdvN0NmbTlCYklTdFFMZ3ZWay04TlBjN0Vfb1BERmRGZA?oc=5",
+  "published": "Sun, 15 Nov 2026 02:01:51 GMT",
+  "summary": "उत्तराखंड में IAS-PCS अधिकारियों के बम्पर तबादले: 10 आईएएस और 20 पीसीएस अधिकारियों की तैनाती और विभागों में... Dainik Bhaskar"
+ }
+}
