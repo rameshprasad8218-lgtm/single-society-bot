@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 7,
+  "serious": false,
+  "tag": "DELHI METRO",
+  "line1": "Subah subah safar",
+  "line2": "4:30 AM SE",
+  "line3": "METRO CHALEGI",
+  "sub": "DMRC ka elaan, kal subah 4:30 baje se shuru hogi metro.",
+  "stats": [
+   {
+    "n": "4:30 AM",
+    "t": "Metro shuru hogi"
+   },
+   {
+    "n": "7",
+    "t": "Zilon mein chhutti"
+   }
+  ],
+  "chat": [
+   {
+    "who": "DOST",
+    "say": "Bhai kal subah 4:30 baje metro pakadni hai!"
+   },
+   {
+    "who": "ME",
+    "say": "Tu pehle dopehar 12 baje uthna band kar!"
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Subah subah safar karne walo ko aasaani hogi.",
+  "icon": "city",
+  "caption": "Delhi walo ke liye DMRC ka bada update! 🚇\n\n• Chhath puja par Delhi Metro kal subah 4:30 baje se chalegi.\n• DMRC ne shradhaluon ke safar ke liye yeh bada faisla liya hai.\n• UP ke Kanpur aur Varanasi samet 7 zilon mein public holiday ka elaan hua hai.\n• Kal in 7 zilon ke sabhi school aur office band rahenge.\n\nMetro to 4:30 baje track par daudne lagegi, par kya aap bistar chhod paoge? 😂\n\nApne us late-latif dost ko tag karo jo subah kabhi time par nahi uthta! 👇",
+  "hashtags": [
+   "#DelhiMetro",
+   "#DMRC",
+   "#DelhiNews",
+   "#PublicHoliday",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: AajTak"
+ },
+ "item": {
+  "title": "जंगल, पहाड़ और कुदरती तालाब... छठ पूजा पर लगेगा शहर से दूर आ गए, दिल्ली के काया माया पार्क की कहानी",
+  "source": "AajTak",
+  "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOVd4ekhRU1piTU1QUExyOE5VSWNTRVB0QjZseUt3dDJYMEl1Z01KcmE1Yml1SXNlMXhwaGl6Q0g2QmpzSjlHVkQ2cUVMVzdIbXN1S0hPY3NTZElsNGFuVTdtN2J6eFNtWG15WV82S1ZTQ0gyci13SWpHZDJHczRQSmZHVWtsMk92UXU4ZTlQcFJ4LTNzb2hZRFhlOENtblI5cHNOZmp0VWNibHdLdlhPTkU2UnFQVFBBTUZfWTROYm1vYjFLV2diQnpPVVM1MFJnSzVxeEF0SdIB3AFBVV95cUxNeHFnLUR2NWpadXprVThzQ0IySllwVlNPVWN1LU02WWtoN3VoSy1nT1Y4cFhvbkhlSjU1aTZFVHRXcXlILWl0MUlYdzA0dzZ4V0RueU5FWWZQMlJRR0puc01NU1VQNTNBSDhvQ2RIN09lYTRCclVldElYVzc3dm91Z3FCSzgzLVViSGFlNDVrcjhJUzJ2X1lXMDRvaEpuVUlwX1dRdDRtZHc1MDVvZmt6OFZKN3JtbV9yRWRZcVhBYXlZYXlJSVRNX2NiSjNLNXY0LTZEUDNyNHlmRmNu?oc=5",
+  "published": "Sun, 15 Nov 2026 09:27:00 GMT",
+  "summary": "जंगल, पहाड़ और कुदरती तालाब... छठ पूजा पर लगेगा शहर से दूर आ गए, दिल्ली के काया माया पार्क की कहानी AajTak कल सुबह 4:30 बजे से चलेगी दिल्ली मेट्रो... छठ पूजा पर DMRC का ऐलान AajTak कानपुर, वाराणसी समेत सात जिलों में सार्वजनिक छुट्टी का ऐलान, कल ऑफिस-स्कूल सब बंद रहेंगे, Uttar-pradesh Hindi News Hind"
+ }
+}
