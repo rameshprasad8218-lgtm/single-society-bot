@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 0,
+  "serious": false,
+  "tag": "CNG MEHENGI",
+  "line1": "Mumbai me",
+  "line2": "CNG MEHENGI",
+  "line3": "1.50 RS BADHE",
+  "sub": "Mumbai me CNG 1.50 rupye mehngi, ab rate 91.50 rupye",
+  "stats": [
+   {
+    "n": "1.50",
+    "t": "prati kilo badhe daam"
+   },
+   {
+    "n": "91.50",
+    "t": "rupya ab naya rate"
+   }
+  ],
+  "chat": [
+   {
+    "who": "DRIVER",
+    "say": "Meter se chaloge ya CNG ka bill bharoge?"
+   },
+   {
+    "who": "YATRI",
+    "say": "Bhai auto se utar ke paidal hi chalte hain!"
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Roz auto se safar karne walon ki jeb par hoga asar",
+  "icon": "fuel",
+  "caption": "Mumbai walo ke liye CNG ka ek aur jhatka! ⛽\n\n• CNG hui 1.50 rupye mehngi\n• Prati kilo daam badhakar hue 91.50 rupye\n\nAise hi daam badhte rahe toh auto wale rocket kharid lenge!\n\nApne us dost ko tag karo jo hamesha auto ka bhada kam karwata hai! 👇",
+  "hashtags": [
+   "#Mumbai",
+   "#CNGPrice",
+   "#Mehengi",
+   "#Auto",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: Navbharat Live"
+ },
+ "item": {
+  "title": "मुंबई में CNG हुई महंगी, 1.50 रुपये प्रति किलो बढ़े दाम; अब 91.50 रुपये में मिलेगी गैस",
+  "source": "Navbharat Live",
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMFczcVR1TXZGLWFYRnc3NEg5Ry1qT2phbUpHbVhqMlZBTGJJSFpNdFZlR2V4d0dqeC1sbjl5Z3ZuQlpjM1Q0VGQwRWNoR041Tk1GTFdUWk00YTlDMXg4LWx2Q2dQd0hmNWNwUEhtZUxOSzVfV1UtQnZRajB2SElyS1N4eVZydFJMNktDR2d3N2JuNGlkbVo5OE5BOWhZb01sTFFlTXluU0RqVVc3RWfSAbsBQVVfeXFMTXo4MEpiemoxaUNDSHdyclFRbmh1eGR1bTFxaUl4Rl8yRE1HZWxmV214b3ROZkZJUGw1NlVfbm1HX0p5T215M0pQaWx5M3c4RGlRVTNDd3hnMkZUT1J0Wm1SdmpDYlJzaTBLdkhwMjM5dlFQWnJHRWd3QjVVSkllU1N2eGNnWkxmUU0yWUtDZkU4YmpCalh6ODcxV0t4VjAwLTZzM1RkVjE2T1RGU0pLcnNLaWg1czM2enQ5dw?oc=5",
+  "published": "Sun, 15 Nov 2026 07:13:10 GMT",
+  "summary": "मुंबई में CNG हुई महंगी, 1.50 रुपये प्रति किलो बढ़े दाम; अब 91.50 रुपये में मिलेगी गैस Navbharat Live"
+ }
+}
