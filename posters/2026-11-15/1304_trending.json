@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 3,
+  "serious": false,
+  "tag": "DELHI AQI 400",
+  "line1": "Delhi-NCR mein hawa",
+  "line2": "AQI 400 PAAR",
+  "line3": "DUM GHUTNE LAGA",
+  "sub": "Delhi ke kai ilaqon mein AQI 400 ke paar pahunch gaya hai.",
+  "stats": [
+   {
+    "n": "400+",
+    "t": "AQI level kayi jagah"
+   },
+   {
+    "n": "Delhi",
+    "t": "Hawa hui behad kharab"
+   }
+  ],
+  "chat": [
+   {
+    "who": "DOST 1",
+    "say": "Bahar chal, mausam kitna romantic hai!"
+   },
+   {
+    "who": "DOST 2",
+    "say": "Bhai wo fog nahi, 400 AQI ka smog hai!"
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Bahar nikalte waqt mask lagana mat bhoolna dosto.",
+  "icon": "alert",
+  "caption": "Delhi walo, saans sambhal ke lo! 😷\n\n• Delhi-NCR mein pradushan ka kahar fir shuru ho chuka hai.\n• DU, Dwarka aur Burari samet kai ilaqon mein AQI 400 ke paar pahunch gaya.\n• Subah se hi aasmaan mein zehreeli dhundh chhayi hui hai.\n\nIs mausam ko romantic samajhne ki galti bilkul mat karna!\n\nApne us dost ko tag karo jo is smog ko winter vibes bol raha hai! 👇",
+  "hashtags": [
+   "#DelhiPollution",
+   "#DelhiAQI",
+   "#SmogAlert",
+   "#AirPollution",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: Jagran"
+ },
+ "item": {
+  "title": "दिल्ली-NCR में प्रदूषण से मिलेगी राहत? AQI पहुंचा 400 के पार; जहरीली हवा से घुट रहा दम",
+  "source": "Jagran",
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM3Jyd2cwaXoyVDNvcHlHRWxlT1R0X080bGtkektBX0ZHeUFtMzJmZ18xSEc5YUJNcVpwengtbWdRRGNMQmp1R0RCSWpWN2dmVmo4dU53bHFXXzEzeGFQN2NVTUFVM3Q2RkxkT181aGU4Zm5nZ3U0YzFLWnR3ZFRuWnNyaEVoSnpQYVYtcG9BMHNaX2hOSFpkSHFPQkZWLUxSQkVZR25KRTBBYjh0WVI0YUU3YUtoSHpySFd5LXFIQQ?oc=5",
+  "published": "Sun, 15 Nov 2026 02:42:00 GMT",
+  "summary": "दिल्ली-NCR में प्रदूषण से मिलेगी राहत? AQI पहुंचा 400 के पार; जहरीली हवा से घुट रहा दम Jagran डीयू, द्वारका, बुराड़ी में AQI 400 पार... सुबह से ही खराब राजधानी दिल्ली की हवा AajTak दिल्ली की हवा में घुला जहर, प्रदूषण से हाल बेहाल कई इलाकों में 400 पार AQI ABP News द‍िल्‍लीवालों... वेस्‍टर्न-ड‍िस्‍टर"
+ }
+}
