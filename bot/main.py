@@ -25,6 +25,17 @@ def nearest_slot(now):
     return max(past) if past else min(SLOTS)
 
 
+def _toks(t):
+    import re
+    return {w[:6] for w in re.findall(r"[a-z0-9]{5,}", t.lower())}
+
+
+def same_story(title, recent):
+    # same news in different words/sources (e.g. Amitabh firing story posted twice): >=2 shared long words
+    t = _toks(title)
+    return any(len(t & _toks(r)) >= 2 for r in recent[-40:])
+
+
 def git(*a):
     subprocess.run(["git", *a], cwd=ROOT, check=True)
 
@@ -40,7 +51,12 @@ def main():
     name, tag, feeds = SERIES[series_key]
 
     state = json.loads(STATE.read_text()) if STATE.exists() else {"seen": [], "recent": []}
+    day = now.strftime("%Y-%m-%d")
+    done = state.get("slots_done", {})
+    if not a.slot and slot in done.get(day, []):
+        print("Slot", slot, "already posted today"); return
     items = fetch(feeds, set(state["seen"]))
+    items = [i for i in items if not same_story(i["title"], state["recent"])]
     if not items:
         print("No fresh news for", series_key); return
     data, item = write(name, items, state["recent"])
@@ -49,7 +65,6 @@ def main():
     if not data.get("serious") and not data.get("tag"):
         data["tag"] = tag
 
-    day = now.strftime("%Y-%m-%d")
     out = ROOT / "posters" / day
     out.mkdir(parents=True, exist_ok=True)
     stem = f"{now.strftime('%H%M')}_{series_key}"
@@ -61,6 +76,7 @@ def main():
 
     state["seen"] = (state["seen"] + [item["link"], item["title"].lower()[:60]])[-600:]
     state["recent"] = (state["recent"] + [item["title"]])[-40:]
+    state["slots_done"] = {day: done.get(day, []) + [slot]}
     STATE.parent.mkdir(exist_ok=True)
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
 

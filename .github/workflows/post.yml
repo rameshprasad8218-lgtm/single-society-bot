@@ -4,6 +4,8 @@ on:
   schedule:
     # every hour from 8:00 AM to 9:00 PM IST (14 posts/day), written in UTC
     - cron: "30 2-15 * * *"
+    # backup run 30 min earlier: GitHub drops/delays scheduled runs (only 6 of 14 ran on 16 Nov); slot dedupe in main.py keeps max 14/day
+    - cron: "5 3-15 * * *"
   workflow_dispatch:
     inputs:
       series:
