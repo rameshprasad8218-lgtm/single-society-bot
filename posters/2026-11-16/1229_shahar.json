@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 11,
+  "serious": false,
+  "tag": "KOGRE KA ALERT",
+  "line1": "Saharandpur se",
+  "line2": "AYODHYA TAK",
+  "line3": "KOGHRA ALERT",
+  "sub": "UP mein Saharanpur se Ayodhya tak ghane kohre ka alert",
+  "stats": [
+   {
+    "n": "IMD",
+    "t": "jaari ki chetawani"
+   },
+   {
+    "n": "UP",
+    "t": "kohre ka asar"
+   }
+  ],
+  "chat": [
+   {
+    "who": "STUDENT",
+    "say": "Subah subah uthke school kaise jaunga bhai?"
+   },
+   {
+    "who": "MUMMY",
+    "say": "Razai se nikalne ki zarurat hi nahi hai!"
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Subah ki sardi aur kohra badh gaya hai, ab thand pakki!",
+  "icon": "alert",
+  "caption": "Subah ki shuruwat ab thand aur kohre ke sath ho chuki hai!\n\n🥶 IMD ne di chetawani\n🌫️ Saharanpur se Ayodhya tak asar\n\nApne us dost ko tag karo jo subah subah thand mein rone lagta hai! 👇",
+  "hashtags": [
+   "#Kohra",
+   "#UttarPradesh",
+   "#WeatherUpdate",
+   "#IMD",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: ABP News"
+ },
+ "item": {
+  "title": "यूपी में सहारनपुर से अयोध्या तक घने कोहरे का अलर्ट, IMD ने दी चेतावनी",
+  "source": "ABP News",
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLS15NFR5SnZyeEpoS2lIWUhTbnU5RENCQmlBRXd4Wng5X1p6N2FrdmlTQWtWWGtGVThram9wQVdGR252VVZ4NmU2V1ZmWm9nekNzX21NTVRZT1dfM192MzVLVmR6WjdsQ01zdG5tWGxYd3l3dTRkbkpTQ3owWVJacUhmODlrV1RjZzR6V2Z4bTZIVkw2R0pfYmFnMi1qNks1VmxWUVBLM2VTTWpOSTNfQVNsSEJuZzdlbk84NEtORdIBxAFBVV95cUxOM3cxeXljb01lUkl3cUxPNEVZRmtRNU82MnpYTTdUdFlxMlVCdHJ3dDZ6RnQ0X21RNlMtc2xiTWJpRHlfS19YRWRUdy1Bbm1xNmUxdXJ4SFNKb3gzVkcwdkVldm9zUzh2Y0h6TWZaaW1TZ18zSm05dTY4MnFkaFBhOGZWOVkwYWFOMktxWUh5MnhtNnhyUFdadVVmQmo1YnZYa09qeGcyaHdOT2hXY3kwd3JfRHFmTmoxd1dEdGxndWxtM0E5?oc=5",
+  "published": "Mon, 16 Nov 2026 01:29:24 GMT",
+  "summary": "यूपी में सहारनपुर से अयोध्या तक घने कोहरे का अलर्ट, IMD ने दी चेतावनी ABP News"
+ }
+}
