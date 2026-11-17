@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 2,
+  "serious": true,
+  "tag": "CYCLONE AKVAN",
+  "line1": "SAMANDAR MEIN TUPDHA",
+  "line2": "145 KM",
+  "line3": "KHAATARNAAK TUTOOFAN",
+  "sub": "Bengal ki khadi mein ban raha hai cyclone 'Akvan', Andhra se Odisha tak asar.",
+  "stats": [
+   {
+    "n": "145 KM",
+    "t": "ki raftaar ka toofan"
+   },
+   {
+    "n": "3 din",
+    "t": "Odisha mein bhaari baarish"
+   }
+  ],
+  "chat": [
+   {
+    "who": "MUMMY",
+    "say": "Bahar mat jaana beta, toofan aa raha hai!"
+   },
+   {
+    "who": "STUDENT",
+    "say": "Kya is chakkar mein school ki chhutti hogi?"
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Tatiy elakon mein alert jariye, ghar se bahar na niklein.",
+  "icon": "alert",
+  "caption": "Samandar mein aaya naya toofan! 🌪️\n\n• Bengal ki khadi mein bana 'Akvan'\n• Toofan ki raftaar 145 KM\n• Andhra se Odisha tak rahega asar\n\nApne kisi dost ko tag karo jo baarish mein nikalne ka shaukeen hai!",
+  "hashtags": [
+   "#CycloneAkvan",
+   "#WeatherUpdate",
+   "#OdishaRain",
+   "#AndhraPradesh",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: BBC"
+ },
+ "item": {
+  "title": "बंगाल की खाड़ी में बन रहा साइक्लोन 'अक्वान' कितना ख़तरनाक हो सकता है, किन राज्यों में होगी बारिश?",
+  "source": "BBC",
+  "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96WEQwaWNIRDhBSEE0ODRfQ3JtTEltb3V3eHJzOS1sT0xnQ1lUTkdQOVhMS2pnaGJVZ1RrOXI2bXIyN3lkYkh2WGcyT1dDOG1WM29hY0RlZWd0Nldq0gFiQVVfeXFMTjNSVTRDMzFrNFhnbDJNc1lsbFJPYWY5MmZIWEE0Wk1nTEJsNzNVd01icHVrNWlpczQ2RDREMkl4dUFLNlBpTnFxdklDY3EzTEZrRi1BSzd6ZklsUy0tS3NVQlE?oc=5",
+  "published": "Tue, 17 Nov 2026 08:25:38 GMT",
+  "summary": "बंगाल की खाड़ी में बन रहा साइक्लोन 'अक्वान' कितना ख़तरनाक हो सकता है, किन राज्यों में होगी बारिश? BBC Cyclone Akvan Live: 145 KM की रफ्तार का तूफान, आंध्र से ओडिशा तक असर, जानिए रूटमैप AajTak आंध्र प्रदेश के तट से टकराएगा चक्रवात 'अकवान', ओडिशा में 3 दिन भारी बारिश के आसार Jagran समंदर में उठा तूफान"
+ }
+}
