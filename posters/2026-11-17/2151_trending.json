@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 7,
+  "serious": false,
+  "tag": "DELHI AQI",
+  "line1": "Delhi ki hawa",
+  "line2": "SUDHAR GAYI",
+  "line3": "Ab saans lo khul kar",
+  "sub": "AQI mein sudhar ke baad Delhi-NCR se GRAP-3 ki pabandiyan hata li gayi hain.",
+  "stats": [
+   {
+    "n": "GRAP-3",
+    "t": "Pabandiyan hata di gayi"
+   },
+   {
+    "n": "Delhi",
+    "t": "Hawa mein sudhar"
+   }
+  ],
+  "chat": [
+   {
+    "who": "STUDENT",
+    "say": "Bhai kya ab khuli hawa mein saans le sakte hain?"
+   },
+   {
+    "who": "BOSS",
+    "say": "Saans baad mein lena, pehle office time par aao!"
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Mask pehenne ki tension thodi kam ho gayi hai.",
+  "icon": "city",
+  "caption": "Delhi walo ke liye badi rahat ki khabar! \n\n📉 AQI mein sudhar\n🚫 GRAP-3 ki pabandiyan hati\n\nAb thodi fresh air milne ki ummeed hai. Apne Delhi wale dost ko tag karo jise iski sabse zyada zaroorat thi!",
+  "hashtags": [
+   "#DelhiAQI",
+   "#DelhiNCR",
+   "#CleanAir",
+   "#DelhiPollution",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: India TV Hindi"
+ },
+ "item": {
+  "title": "दिल्ली की हवा में हुआ सुधार, AQI हुआ कम, GRAP-3 के नियम हटे, जानें फिलहाल क्या पाबंदियां लागू रहेंगी",
+  "source": "India TV Hindi",
+  "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZ0pLNFFVY095d3I0N0JiYVFGVkltY0tSeEU1YldlY3F1cDQ2a3RVMkpGMk84cnJXcjFLT2NFbEdRNzJ6c0ZMaVhxLVdIT25sRi1LdndiTDdQN3RuRHBnU1p3YzllcHg1bkVsdDJrMTVqSGF1WkprRkpxTjFBd3ljY1Z1cTl6bUcxcHRTVFNWWXlkOTFfRGw1RUlnTHhvcmVuNVV3TEFYTk5SZzlEQUl0TVcxd1V0cE9PWGhkTTRCSGtnaElpaTFvSW5ZRzljUG9BemV6UGo4QQ?oc=5",
+  "published": "Tue, 17 Nov 2026 12:27:24 GMT",
+  "summary": "दिल्ली की हवा में हुआ सुधार, AQI हुआ कम, GRAP-3 के नियम हटे, जानें फिलहाल क्या पाबंदियां लागू रहेंगी India TV Hindi दिल्ली में प्रदूषण की मार! आज भी हवा खराब अगले 24 घंटे में बढ़ेगी आफत? ABP News जहरीली हुई दिल्ली की हवा, इन इलाकों में अत्याधिक प्रदूषण, लोगों का सांस लेना मुश्किल Jagran दिल्ली-एनसीआ"
+ }
+}
