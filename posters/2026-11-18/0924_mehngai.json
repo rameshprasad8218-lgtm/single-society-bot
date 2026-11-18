@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 5,
+  "serious": false,
+  "tag": "THOK MEHENGAI",
+  "line1": "October mein",
+  "line2": "12.29%",
+  "line3": "Thok mehangai",
+  "sub": "October mein thok mehangai dar badhkar 12.29% hui.",
+  "stats": [
+   {
+    "n": "12.29%",
+    "t": "October mehangai"
+   },
+   {
+    "n": "11.39%",
+    "t": "September mein"
+   }
+  ],
+  "chat": [
+   {
+    "who": "BOSS",
+    "say": "Kharcha fir se badh gaya."
+   },
+   {
+    "who": "EMPLOYEE",
+    "say": "Salary kab badhegi sir?"
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Har cheez ka bill ab aur zyada heavy aane wala hai.",
+  "icon": "money",
+  "caption": "Mehangai ka meter ek baar fir high ho gaya hai!\n\n📈 October mein thok mehangai dar 12.29% hui\n⚡ Eendhan aur bijli ke daam bhi badhe\n💸 Aam aadmi ki jeb par pada asar\n\nAb pocket sambhalne ka time aa gaya hai!\n\nApne us dost ko tag karo jo har cheez par rota hai ki 'bhai paise khatam ho gaye'.",
+  "hashtags": [
+   "#Mehangai",
+   "#Inflation",
+   "#Economy",
+   "#News",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: Jagran"
+ },
+ "item": {
+  "title": "अक्टूबर में थोक महंगाई दर बढ़कर हुई 12.29%, ईंधन और बिजली के बढ़े दाम; आम आदमी के लिए बुरी खबर",
+  "source": "Jagran",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOElPOTJjOTltTkM5RWJnR2w2Y0hFMndwNWZHa3kxMUhwRjVYalEzV0VLdS1ZSGY0bUZtWUNfTzVQTHdNTVRWWXNTRnN6ZEphY3FCT1habGRpaGZSXzFDZU5YSXZPcUxDNlVQTUZscEJPZlNIQnpYWEdXU3Ffd1lsOWtUQVZFWXF5NTlkcm1qYXF1cmtNSmdSZXRfYjNybVNhUVdiRTRkbmpmdkFWeUtTSWxtTXZsTzQ?oc=5",
+  "published": "Mon, 16 Nov 2026 07:52:00 GMT",
+  "summary": "अक्टूबर में थोक महंगाई दर बढ़कर हुई 12.29%, ईंधन और बिजली के बढ़े दाम; आम आदमी के लिए बुरी खबर Jagran"
+ }
+}

@@ -83,10 +83,11 @@
   "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZ0pLNFFVY095d3I0N0JiYVFGVkltY0tSeEU1YldlY3F1cDQ2a3RVMkpGMk84cnJXcjFLT2NFbEdRNzJ6c0ZMaVhxLVdIT25sRi1LdndiTDdQN3RuRHBnU1p3YzllcHg1bkVsdDJrMTVqSGF1WkprRkpxTjFBd3ljY1Z1cTl6bUcxcHRTVFNWWXlkOTFfRGw1RUlnTHhvcmVuNVV3TEFYTk5SZzlEQUl0TVcxd1V0cE9PWGhkTTRCSGtnaElpaTFvSW5ZRzljUG9BemV6UGo4QQ?oc=5",
   "दिल्ली की हवा में हुआ सुधार, aqi हुआ कम, grap-3 के नियम हटे,",
   "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZVFjamhXLWNSRUJpcjlsbjNTRUZXQlFUSm1xSU5ONEc1T2ZGRWtEcDV6UkkzdVhtVUFvNnVzazBnUGVpV1BObUFaLWdkeERuZUZ3S2pLV252eWJvX25wS1NJbDNtU0JFbFFXU0dSVkFwTFdQNWJSdVRZbndFbHBxSndlMUlERjZ0Z2dQM005dFBCQWY4S1JiSmVWNFVoUm81S3dOemV6RUJsR0k?oc=5",
-  "समुद्र की गहराई से साइबर स्पेस तक: हिंद महासागर में केबल बिछ"
+  "समुद्र की गहराई से साइबर स्पेस तक: हिंद महासागर में केबल बिछ",
+  "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOElPOTJjOTltTkM5RWJnR2w2Y0hFMndwNWZHa3kxMUhwRjVYalEzV0VLdS1ZSGY0bUZtWUNfTzVQTHdNTVRWWXNTRnN6ZEphY3FCT1habGRpaGZSXzFDZU5YSXZPcUxDNlVQTUZscEJPZlNIQnpYWEdXU3Ffd1lsOWtUQVZFWXF5NTlkcm1qYXF1cmtNSmdSZXRfYjNybVNhUVdiRTRkbmpmdkFWeUtTSWxtTXZsTzQ?oc=5",
+  "अक्टूबर में थोक महंगाई दर बढ़कर हुई 12.29%, ईंधन और बिजली के"
  ],
  "recent": [
-  "हरियाणा बोर्ड की 10वीं पूरक परीक्षा का रिजल्ट जारी: रेगुलर में 66.16% और ओपन स्कूल में 47.74% विद्यार्थी पा...",
   "बंगाल की खाड़ी में लो-प्रेशर सिस्टम सक्रिय, 15 नवंबर तक डीप डिप्रेशन में बदलने की संभावना",
   "AFG vs ZIM 2nd Test: अफगानिस्तान का नया 'मिस्ट्री स्पिनर', टेस्ट डेब्यू पर काटा गदर, झटके 7 विकेट",
   "रामायण का बॉक्स ऑफिस पर नॉन स्टॉप रिकॉर्ड, बनी बॉलीवुड की चौथी हाईएस्ट ग्रॉसर फिल्म",
@@ -125,11 +126,13 @@
   "दिल्ली-NCR वालों को राहत, AQI में सुधार के बाद हटाई गईं GRAP-3 की पाबंदियां",
   "Samsung, Xiaomi के फोन महंगे: ₹4000 तक बढ़ी कीमत",
   "दिल्ली की हवा में हुआ सुधार, AQI हुआ कम, GRAP-3 के नियम हटे, जानें फिलहाल क्या पाबंदियां लागू रहेंगी",
-  "समुद्र की गहराई से साइबर स्पेस तक: हिंद महासागर में केबल बिछाएगा भारत, क्वाड में चीन को सीधा संदेश"
+  "समुद्र की गहराई से साइबर स्पेस तक: हिंद महासागर में केबल बिछाएगा भारत, क्वाड में चीन को सीधा संदेश",
+  "अक्टूबर में थोक महंगाई दर बढ़कर हुई 12.29%, ईंधन और बिजली के बढ़े दाम; आम आदमी के लिए बुरी खबर"
  ],
  "slots_done": {
   "2026-11-18": [
-   "0800"
+   "0800",
+   "0900"
   ]
  }
 }
