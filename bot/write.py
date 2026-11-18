@@ -13,6 +13,7 @@ KADE NIYAM:
 1. Sirf wahi facts aur numbers likho jo neeche diye text mein hain. Koi number apne se mat banao.
 2. Maut, hadsa, aatank, aparadh, aapda, beemari -> "serious": true, aur koi mazaak nahi (chat aur joke khaali chhodo).
 3. Dharm, jaati, aurat, kisi neta/celebrity par personal mazaak kabhi nahi. Mazaak sirf situation par.
+3b. Serious post (maut/hadsa/aatank): caption mein "like banta hai", emoji-bhari hype ya engagement-bait nahi; sirf shant, izzat wali line. Masjid/mandir/church jaisi dharmik jagah ka naam mat likho. Har shabd ki spelling dobara check karo (jaise "lashkar", "masjid").
 4. Politics mein kisi party ka paksh mat lo.
 5. Agar koi bhi khabar inme fit na ho to {{"skip": true}} do.
 6. SAARA text (line1, line2, line3, sub, stats, chat, asar) sirf Roman Hinglish (English letters) mein likho. Devanagari ya Gurmukhi/Punjabi akshar kabhi nahi, aur ek line mein do script mix mat karo.
