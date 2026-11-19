@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 11,
+  "serious": false,
+  "tag": "OIL TANKER ATTACK",
+  "line1": "Hormuz mein",
+  "line2": "LPG TANKER",
+  "line3": "PAR HAMLA!",
+  "sub": "Oman ke paas LPG tanker par attack, 24 bhartiya the savar.",
+  "stats": [
+   {
+    "n": "24",
+    "t": "bhartiya savar"
+   },
+   {
+    "n": "LPG",
+    "t": "tanker target"
+   }
+  ],
+  "chat": [
+   {
+    "who": "MUMMY",
+    "say": "Beta tu ghar aa ja, videsh mein khatra badh gaya hai."
+   },
+   {
+    "who": "STUDENT",
+    "say": "Geography map mein Hormuz dhoondne do pehle."
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Samundar mein halchal se fuel prices par asar pad sakta hai.",
+  "icon": "fuel",
+  "caption": "Samundar mein fir se bada hadsa!\n\n🛢️ Hormuz mein LPG tanker par attack\n⚓ Jahaaj par 24 bhartiya naavik the savar\n⚠️ Teesri baar tanker bana nishana\n\nAise halat mein safar karna mushkil hota ja raha hai.\n\nApne us dost ko tag karo jo merchant navy mein hai!",
+  "hashtags": [
+   "#Hormuz",
+   "#OilTanker",
+   "#IndianSailors",
+   "#BreakingNews",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: AajTak"
+ },
+ "item": {
+  "title": "होर्मुज में तेल टैंकर पर फिर अटैक, जहाज पर सवार थे भारतीय नाविक",
+  "source": "AajTak",
+  "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbkMwSC1TMXRPVWQ3OFRiRE00S2l1Y282a3RIbF9xb281WFNLbW9OZTVCSHEzeFJvTUVpaUQ3b3ZmR21RVkh4UWZCVFktaUl4ekt4ZVMtRGVZdzVNOGdDU2lwRGRXN1JWdVN6eDZVUmo1djVKbEdBMDI2WUlOTUk0TFZCanJZZE1pMDhSWDBzNFF0eWFfbzJ1emRUYlA4cUdRQmxMZk05Z0pWaHk5TVNWNEZKOVMwUGt1MFFwb29fZmRWenRVSnRIVzZLVGRUY3FNaGNzRm5mODFtYmhX0gHiAUFVX3lxTE04LW9UT1NEWUszWTFRNWo1cFBRTlVma2l2eTNhRVdCb3k0LTRTLXA3UUFFRDVlUHh2algyMW4ya01aWG0yQ2RhWG1DQVpNWUpIWUxqZVJuRnlINWtRZ3BjVjR4OFcxVHpKT05QbEZVSDJDZ2pVYkVfY2pydWd2RnRUZUN5UEcwT0E0OXZRcHhvbHVHZ1gzV0ZYTFByZVJIeGdnMmQ1MkxjbDV5eDdoTl9YajJUVXhLYUxRdkhLMDNVckxFTEtkQzhBZGI2U2wwSWpTOXgzUE43UkFTQW03V3VfQWc?oc=5",
+  "published": "Wed, 18 Nov 2026 14:38:49 GMT",
+  "summary": "होर्मुज में तेल टैंकर पर फिर अटैक, जहाज पर सवार थे भारतीय नाविक AajTak होर्मुज में तीन टैंकरों में ब्लास्ट, ईरान बोला- बारूदी सुरंगों से टकराने के बाद लगी आग Jagran होर्मुज में ओमान के पास LPG टैंकर पर मिसाइल से हमला, 24 भारतीय थे सवार ABP News होर्मुज स्ट्रेट में फिर निशाना बना LPG टैंकर, 24 भारतीय"
+ }
+}
