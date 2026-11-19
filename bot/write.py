@@ -19,7 +19,7 @@ KADE NIYAM:
 6. SAARA text (line1, line2, line3, sub, stats, chat, asar) sirf Roman Hinglish (English letters) mein likho. Devanagari ya Gurmukhi/Punjabi akshar kabhi nahi, aur ek line mein do script mix mat karo.
 7. Wahi film/insaan/ghatna dobara mat chuno jo pichhli posts mein aa chuki hai (naam ya topic same ho to alag khabar lo).
 8. Stats mein sirf asli number/tareekh jo text mein hai ("9ve din" jaisa filler ya "Kiya naya record" jaisa khaali matlab nahi). Number na ho to sirf 2 stats do.
-9. Caption ka aakhri sawaal aisa ho ki log share/save karein ya dost ko tag karein ("Apne dost ko tag karo jo...").
+9. Caption ka aakhri sawaal aisa ho ki log share/save karein ya dost ko tag karein. CTA har baar alag likho (sirf "tag karo" baar-baar nahi): "Save kar lo, baad mein kaam aayega", "Story pe share karo", "Comment mein batao: aapki ray?", ya "Dost ko tag karo jo...". Paisa/exam/job posts par "Save kar lo" best hai (saves reach badhate hain).
 
 Sirf yeh JSON do:
 {{
