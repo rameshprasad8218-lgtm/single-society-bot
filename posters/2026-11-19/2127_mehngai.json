@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 2,
+  "serious": false,
+  "tag": "MEHNGAI METER",
+  "line1": "South Delhi mein ghar",
+  "line2": "40% MEHNGE",
+  "line3": "KOTHI KA SAPNA",
+  "sub": "South Delhi mein floors ke rate 40% tak badh gaye hain.",
+  "stats": [
+   {
+    "n": "40%",
+    "t": "Floors ke rate badhe"
+   },
+   {
+    "n": "Delhi",
+    "t": "South Delhi ka asar"
+   }
+  ],
+  "chat": [
+   {
+    "who": "LAUNDA",
+    "say": "South Delhi me ghar lene ka plan drop!"
+   },
+   {
+    "who": "DOST",
+    "say": "Ab wahan bas momos khane ki aukaat bachi hai."
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "South Delhi wali kothi ab sirf sapno me milegi.",
+  "icon": "money",
+  "caption": "South Delhi me ghar lene ka sochna bhi mat! 💸\n\n• South Delhi mein residential floors ke daam achanak badh gaye\n• Reports ke mutabik rates mein seedhe 40% tak ka ucchal aaya hai\n• Middle class ka posh ilaqe me ghar lene ka sapna fir toot gaya\n\nYahan toh flat dekhne ke bhi charge lag jayenge lagta hai.\n\nApne us dost ko tag karo jo hamesha South Delhi ki kothi ke khwab dekhta hai!",
+  "hashtags": [
+   "#SouthDelhi",
+   "#DelhiRealEstate",
+   "#MehngaiMeter",
+   "#DelhiNews",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: AajTak"
+ },
+ "item": {
+  "title": "साउथ दिल्ली में घरों के दाम आसमान पर, 40% तक बढ़े फ्लोर के दाम",
+  "source": "AajTak",
+  "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZVlQRWdrM051U1IzRE1WSTYzai1Gb0dVZzFpb3pON29RRUhuR1l4T1NHd3ZFZDAyWjJ1WVdqdVFocDlTUzY1ZWN1b0lOU2dzT3NFQmlSSEdQeldZZm1Ub3VIbTRVOFFWLUF6aGFpVEx2UnRLTVJmdWVVa0xGWWhRYUNYa2pvdHdmXzFVY3E4d3VoSWw5U3BWREpXWlh2N2pLYWNrRXd2UVRvTnZOa2FobDRnWE56NFp1Wmg4cFhJUkd1ZTVwMGpMYi1FczRSZE5xZHJCSWFGTVZxd9IB3wFBVV95cUxPcHRKLTJyeEpYYzhyaVJ0RG54NTdvZURScVA0SU9UZ3R4akxfeVZ2dzJER0liQ1hzNWNOYVU5OGRmZG1pQ0RaX1daQVotbHFvelcwM096aGIxZU9ldklyRzkyX19xcm10ZXAtbHp5aUN2WUl1M010SllXVmlRS2xjcE1acl9PdWlUbkI1UWlLWnkwOTB3UDJWZnM3WVZIbC1YNEpqYWV1Rll5QnZodm5hNlZZWHl3WHkwNm5yWVJ4dzNIQ045ZFdDNUNOU0VUbVBzRmczSGpSbzNNcFhMQkRr?oc=5",
+  "published": "Wed, 18 Nov 2026 09:06:01 GMT",
+  "summary": "साउथ दिल्ली में घरों के दाम आसमान पर, 40% तक बढ़े फ्लोर के दाम AajTak"
+ }
+}
