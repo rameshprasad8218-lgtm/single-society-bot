@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 1,
+  "serious": false,
+  "tag": "TOOFAN ALERT",
+  "line1": "CHHATTISGARH MEIN",
+  "line2": "AKVAN",
+  "line3": "KA KHATRA",
+  "sub": "Chakravati toofan Akvan ka khatra, 90 km/h ki raftar se chalengi hawayein.",
+  "stats": [
+   {
+    "n": "90 KM",
+    "t": "ki raftar se hawayein"
+   },
+   {
+    "n": "3.72 L",
+    "t": "log shift kiye gaye"
+   }
+  ],
+  "chat": [
+   {
+    "who": "STUDENT",
+    "say": "Sir, kya kal school ki chhutti rahegi?"
+   },
+   {
+    "who": "MUMMY",
+    "say": "Bahar mat nikalna, chupchaap ghar pe baitho!"
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Mausam kharab hai, bina wajah ghar se bahar na niklein.",
+  "icon": "alert",
+  "caption": "Chakravati toofan 'Akvan' ka khatra mandra raha hai! 🌪️\n\n• 90 km/ghanta ki raftar se chalengi tez hawayein\n• Chhattisgarh mein toofan ka double attack, barish se bheega Raipur\n• 11 jilon mein alert jari kiya gaya hai\n• Suraksha ke chalte 3.72 lakh logon ko shift kiya gaya\n\nAapke ilake mein mausam kaisa hai? Comment mein batao aur doston ko alert karo!",
+  "hashtags": [
+   "#CycloneAkvan",
+   "#Chhattisgarh",
+   "#WeatherUpdate",
+   "#StormAlert",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: Jagran"
+ },
+ "item": {
+  "title": "चक्रवाती तूफान 'अकवान' का खतरा, 90 किमी/घंटा की रफ्तार से चलेंगी हवाएं; क्या खुला और क्या बंद",
+  "source": "Jagran",
+  "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLXZ5VDBtZW5SclEtcTl1SEpLWlJoM1ZvUWJJTDVVemtWYW5kekFyUnV2MTJxMG9wd1I5dXJvS2tIck84UE5qWEpNWDU0c1BDVmRUc3VSTmM4M1RLa3BqSXhhdnd6ZVdmM09FZkFBcnJOVkROX01UTTlHMkRUcU0zTlBzcXRrYWVfcHA2M1pNRHpEakg4aEJUajRfVWJua0lad2JrVkVHRDUxenVXcnBHTXdCNENwakZRbndxazB4WGl6OTRNaU10WEpCWU1SZjJFbHI5dFRJcEs?oc=5",
+  "published": "Fri, 20 Nov 2026 04:44:00 GMT",
+  "summary": "चक्रवाती तूफान 'अकवान' का खतरा, 90 किमी/घंटा की रफ्तार से चलेंगी हवाएं; क्या खुला और क्या बंद Jagran छत्तीसगढ़ में तूफान अकवान का डबल अटैक: बारिश से भीगा रायपुर, 11 जिलों में अलर्ट Navbharat Live Cyclone Akvan Live: 80 KM की स्पीड से अकवान का लैंडफॉल शुरू, 3.72 लाख लोग शिफ्ट किए गए AajTak चक्रवात 'अ"
+ }
+}
