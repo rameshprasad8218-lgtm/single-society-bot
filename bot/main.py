@@ -40,6 +40,15 @@ def git(*a):
     subprocess.run(["git", *a], cwd=ROOT, check=True)
 
 
+def safe_push():
+    """push with rebase-retry so log/poster commits are not lost on a race"""
+    for _ in range(3):
+        if subprocess.run(["git", "push"], cwd=ROOT).returncode == 0:
+            return
+        subprocess.run(["git", "pull", "--rebase", "-X", "theirs", "origin", "main"], cwd=ROOT)
+    print("push failed after retries", file=sys.stderr)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--slot"); ap.add_argument("--series"); ap.add_argument("--no-publish", action="store_true")
@@ -83,7 +92,7 @@ def main():
     media_id, status = "", "saved"
     in_ci = os.getenv("GITHUB_ACTIONS") == "true"
     if in_ci:
-        git("add", "-A"); git("commit", "-m", f"poster {day} {stem}"); git("push")
+        git("add", "-A"); git("commit", "-m", f"poster {day} {stem}"); safe_push()
     if ig.ready() and not a.no_publish:
         repo = os.environ.get("GITHUB_REPOSITORY")
         url = f"https://raw.githubusercontent.com/{repo}/main/posters/{day}/{stem}.png"
@@ -119,7 +128,7 @@ def main():
         w.writerow([now.strftime("%Y-%m-%d %H:%M"), series_key, data.get("serious", False),
                     f"{data.get('line1','')} {data.get('line2','')} {data.get('line3','')}", item["source"], media_id, status])
     if in_ci:
-        git("add", "-A"); git("commit", "-m", f"log {stem} {status}"); git("push")
+        git("add", "-A"); git("commit", "-m", f"log {stem} {status}"); safe_push()
     print(status, png)
 
 
