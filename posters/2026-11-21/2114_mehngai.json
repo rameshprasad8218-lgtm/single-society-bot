@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 10,
+  "serious": false,
+  "tag": "CHINI MEHENGI",
+  "line1": "Mehangai ka jhatka",
+  "line2": "CHINI 70",
+  "line3": "Rupaye kilo hui",
+  "sub": "Desh ke kai shahron mein chini ka bhav 70 rupaye kilo tak pahuncha.",
+  "stats": [
+   {
+    "n": "70",
+    "t": "rupaye kilo tak bhav"
+   },
+   {
+    "n": "31%",
+    "t": "ek saal mein bade daam"
+   }
+  ],
+  "chat": [
+   {
+    "who": "MUMMY",
+    "say": "Chai mein chini thodi kam daala karo ab."
+   },
+   {
+    "who": "BETA",
+    "say": "Mummy ab toh feeki chai hi peeni padegi!"
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Har cup chai ke saath ab pocket par zyada load aayega.",
+  "icon": "money",
+  "caption": "Chini ke daam sunkar sabke hosh ud gaye hain! ☕\n\n• Kai shahron mein chini ₹70 kilo pahunchi\n• Ek saal mein 31% tak bade daam\n• Chai ki mithaas hui thodi mehangi\n\nAb toh feeki chai peene ka time aa gaya hai!\n\nSave kar lo, baad mein kaam aayega.",
+  "hashtags": [
+   "#Chini",
+   "#Mehangai",
+   "#Inflation",
+   "#ChaiLovers",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: IBC24"
+ },
+ "item": {
+  "title": "महंगाई ने छीन ली चाय की मिठास! चीनी के भाव सुनकर ग्राहकों के उड़ रहे होश! जानें कितने रुपये बढ़े दाम!",
+  "source": "IBC24",
+  "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQSDNvOTBnWWNZRUhDSWNuS3hQRlBjSEZFZHdVZGpDSjJQaXZPc2JWN2w1STAwSm1vUmM3Sy1YUDZnUUo1eG5LOGFGMnppbndYTVJVbkNtX09zeWpaZnd1ZGVHdmFyby1qTEVvMjB2dU1vVHhhZVl0V0NBRmdmcklady1MZ0dER2xtWHF4cXJ3WFFiNG5IS3lJSUdlUDJEbFQzdnBWeldoUHZORkpFbXFhR3RXS1d2T0pUQzNGcDZPZ2QycFpqdUdWU2JUNFpnZzBQaHF0Ykp6Y1owMlE?oc=5",
+  "published": "Sat, 21 Nov 2026 09:42:54 GMT",
+  "summary": "महंगाई ने छीन ली चाय की मिठास! चीनी के भाव सुनकर ग्राहकों के उड़ रहे होश! जानें कितने रुपये बढ़े दाम! IBC24"
+ }
+}
