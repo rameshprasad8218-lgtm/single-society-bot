@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 9,
+  "serious": false,
+  "tag": "FLIGHT CANCEL",
+  "line1": "FLIGHTS CANCEL",
+  "line2": "SPICEJET",
+  "line3": "KO NOTICE",
+  "sub": "SpiceJet ki flight cancel hone par DGCA ne bheja notice.",
+  "stats": [
+   {
+    "n": "3",
+    "t": "Bade airports par sankat"
+   },
+   {
+    "n": "74%",
+    "t": "Udaanein radd"
+   }
+  ],
+  "chat": [
+   {
+    "who": "PASSENGER",
+    "say": "Meri flight ka kya hoga bhai?"
+   },
+   {
+    "who": "FRIEND",
+    "say": "Save kar lo, agli baar train dekhna!"
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Travel plan banane se pehle flight status zaroor check karein.",
+  "icon": "plane",
+  "caption": "✈️ Flight ticket book karne walon ke liye badi khabar!\n\n• SpiceJet ki udaanon par DGCA ki sakht nazar\n• Baar-baar niyam todne par bheja gaya notice\n• 3 bade airports par 74% tak udaanein radd\n\nAbhi ticket book karne se pehle status check karna padega!\n\nSave kar lo, baad mein kaam aayega.",
+  "hashtags": [
+   "#SpiceJet",
+   "#DGCA",
+   "#FlightCancel",
+   "#AviationNews",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: AajTak"
+ },
+ "item": {
+  "title": "क्‍यों धड़ाधड़ फ्लाइट्स हो रहीं कैंसिल? DGCA ने स्‍पाइसजेट को भेजा कारण बताओ नोटिस",
+  "source": "AajTak",
+  "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOFpXY29VSlBTaElNd3J4dGF4WjEzYUt5OWxRcW5vODhDeVk1WDN2a0N0Q3RTY3VxOXo0cmgxU0dmeExzQm5iVFZkVW40Vk9LS2RkaGtMOHBiMTlSazFsdEZUVWN2MG5lN0ZGQUIzd0lNVEZIZTJrSDRVQnJiTkVhbUp1YnJxSTZKc29lbU5LVEZxVVF2Z1NsLWlpcVl4ZzJQZDZ1Y0xFQ0RwcS1SaEY1U1dwZFJJdWw5WGhRS2ZYbDZzOG1fUXRB0gHMAUFVX3lxTE9XZzU2YUo5ZmVrWXZXNWtMUXFYaUtfaFY3amJfNDVwbFp2akhpZUVRa3IzZ2tPX1J2czUyWGVIX2hJWkFMT2d6UlVLR2NjUHUyc3dCNTFzZWxUMGR5YXYwR2dZd3JUNHExV21CeTdEQTJUYmkxSHBSVlJ6Y3ZWUjl0X0UzRVZCdzJmZjFtY1JzVjllOThreUd1NXp3Uk1NUEdGNGQ2cTRZRFhUT1lFRmcwT0Y5bjJDTXZmWkVCdHpEa0RIckJVMHotaFY0Zw?oc=5",
+  "published": "Fri, 20 Nov 2026 11:26:19 GMT",
+  "summary": "क्‍यों धड़ाधड़ फ्लाइट्स हो रहीं कैंसिल? DGCA ने स्‍पाइसजेट को भेजा कारण बताओ नोटिस AajTak स्पाइसजेट ने बार-बार किया नियमों का उल्लंघन, DGCA ने थमा दिया कारण बताओ नोटिस Jagran संकट में SpiceJet: 3 बड़े एयरपोर्ट्स पर 74% उड़ानें रद्द, आज भी कैंसिल हैं फ्लाइट्स? ABP News टिकट बुक कराई, तैयारी पूरी की औ"
+ }
+}
