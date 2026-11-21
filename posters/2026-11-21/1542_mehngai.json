@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 1,
+  "serious": false,
+  "tag": "PYAJ MEHENGA",
+  "line1": "Kisanon ki chamki",
+  "line2": "QIMAT BADI",
+  "line3": "4 Guna Tez Pyaj",
+  "sub": "Pyaj ke dam 4 guna bade, lahsun 20 hazar rupaye kvintal.",
+  "stats": [
+   {
+    "n": "4 guna",
+    "t": "pyaj ke bade dam"
+   },
+   {
+    "n": "20 hazar",
+    "t": "lahsun ka bhav"
+   }
+  ],
+  "chat": [
+   {
+    "who": "MUMMY",
+    "say": "Ab sabzi mein pyaj kam dalna padega."
+   },
+   {
+    "who": "BETA",
+    "say": "Mummy, abhi toh shuruat hai!"
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Kitchen ka budget hil gaya hai bhai.",
+  "icon": "money",
+  "caption": "Mehngai ka naya jhatka lag gaya hai dosto!\n\n• Pyaj ke dam 4 guna bade\n• Lahsun 20 hazar rupaye kvintal tak pahuncha\n\nSave kar lo, baad mein kaam aayega.",
+  "hashtags": [
+   "#Pyaj",
+   "#Mehngai",
+   "#Kisan",
+   "#Market",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: jaipurtimes.org"
+ },
+ "item": {
+  "title": "किसानों की चमकी किस्मत, प्याज के दाम 4 गुना बढ़े, लहसुन भी 20 हजार रुपये क्विंटल तक पहुंचा",
+  "source": "jaipurtimes.org",
+  "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOVJ6TkhuMzlfODktTVlLVlZNTUptVm9nZ2dkUGVaVldoNjBXU1kxeVBFUWVVMGpvNmNSZHhsYkdtYVpJeTQwdnMxQnJJNlRDTXZOd21XbFlETkQ4VGdkWDRyeDRjTHJpdkdvVFZKRFRWbHNLZUdTaWE3UmtxV3dVU0FxdkIzOURmU0ZKeEtCZm9paHhQRUlFeWlWRmo3YU5IWWlZQnloTVctcjJKWDhyTnprc2NCU1BlTGw0R29raVVwTHl2ZWUxb0otWVlSeEU?oc=5",
+  "published": "Sat, 21 Nov 2026 01:30:00 GMT",
+  "summary": "किसानों की चमकी किस्मत, प्याज के दाम 4 गुना बढ़े, लहसुन भी 20 हजार रुपये क्विंटल तक पहुंचा jaipurtimes.org"
+ }
+}
