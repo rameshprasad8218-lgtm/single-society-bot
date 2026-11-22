@@ -27,7 +27,7 @@ def nearest_slot(now):
 
 def _toks(t):
     import re
-    return {w[:6] for w in re.findall(r"[a-z0-9]{5,}", t.lower())}
+    return {w[:6] for w in re.findall(r"[a-z0-9]{5,}|[\u0900-\u097f]{4,}", t.lower())}
 
 
 def same_story(title, recent):

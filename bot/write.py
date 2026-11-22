@@ -84,8 +84,8 @@ def write(series_name, items, recent_titles):
     if data.get("skip"):
         return None, None
     blob = json.dumps({k: data.get(k) for k in ("line1", "line2", "line3", "sub", "stats", "chat", "asar")}, ensure_ascii=False)
-    if any("\u0a00" <= ch <= "\u0a7f" for ch in blob):  # Gurmukhi glitch: font renders badly
-        print("AI output had Gurmukhi text: skipping slot"); return None, None
+    if any("\u0900" <= ch <= "\u097f" or "\u0a00" <= ch <= "\u0a7f" for ch in blob):  # Devanagari/Gurmukhi glitch: font renders badly, Roman only
+        print("AI output had Devanagari/Gurmukhi text: skipping slot"); return None, None
     item = items[int(data["pick"])]
     data["stats"] = (data.get("stats") or [])[:4]
     data["chat"] = (data.get("chat") or [])[:2]
