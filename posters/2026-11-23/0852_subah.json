@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 6,
+  "serious": false,
+  "tag": "BISLERI PAANI",
+  "line1": "Bisleri ka paani",
+  "line2": "FAIL",
+  "line3": "jaanch mein",
+  "sub": "Bisleri ke paani ko jaanch mein asurakshit bataya gaya.",
+  "stats": [
+   {
+    "n": "2 baar",
+    "t": "paani test mein hua fail"
+   },
+   {
+    "n": "FSSAI",
+    "t": "ne di mukadme ki manzoori"
+   }
+  ],
+  "chat": [
+   {
+    "who": "STUDENT",
+    "say": "Hostel mein toh yahi peete the bhai!"
+   },
+   {
+    "who": "MUMMY",
+    "say": "Bahar ka paani peena hi band karo ab."
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Ab botal khareedne se pehle 10 baar sochna padega.",
+  "icon": "money",
+  "caption": "Paani peena bhi ab mushkil ho gaya hai dosto! 🚰\n\n• Bisleri ka paani jaanch mein asurakshit\n• FSSAI ne di company par mukadme ki manzoori\n• Test mein paani 2 baar hua fail\n\nSave kar lo, baad mein kaam aayega aur doston ko alert karo!\n\n#Bisleri #FSSAI #HealthAlert #Paani #SingleSociety",
+  "hashtags": [
+   "#Bisleri",
+   "#FSSAI",
+   "#HealthAlert",
+   "#Paani",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: BBC"
+ },
+ "item": {
+  "title": "बिसलेरी के पानी को जांच में बताया गया असुरक्षित, FSSAI ने मुक़दमा चलाने की दी मंजूरी",
+  "source": "BBC",
+  "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE04WkRtUE15dmQ5bVdyTjJEa2FGOWMzTTBuSUdGLW9tQXVUNGxkT1Fid1hsMm5US1VxOHRXZ0dZdEZmbDk2cXdZWlZIVi11dHNyaE1yTkE4UQ?oc=5",
+  "published": "Mon, 23 Nov 2026 00:50:28 GMT",
+  "summary": "बिसलेरी के पानी को जांच में बताया गया असुरक्षित, FSSAI ने मुक़दमा चलाने की दी मंजूरी BBC बिसलेरी के पानी को जांच में क्यों बताया गया असुरक्षित? FSSAI ने कंपनी के खिलाफ मुकदमा चलाने की दी मंजूरी Navbharat Live Bisleri का पानी 2 बार टेस्ट में फेल, कैंसर तत्व मिलने के बाद कंपनी पर केस ABP News बिसलेरी "
+ }
+}
