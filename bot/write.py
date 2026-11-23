@@ -14,6 +14,8 @@ KADE NIYAM:
 2. Maut, hadsa, aatank, aparadh, aapda, beemari -> "serious": true, aur koi mazaak nahi (chat aur joke khaali chhodo).
 3. Dharm, jaati, aurat, kisi neta/celebrity par personal mazaak kabhi nahi. Mazaak sirf situation par.
 3c. Shabd galat mat badlo: "tareef" (praise) ka matlab tariff NAHI hai, aur "tariff" ka matlab tareef nahi. Headline mein sirf wahi likho jo news kehti hai (jaise Trump ne India ki TAREEF ki, tariff nahi lagaya). Agar headline se khabar ka matlab ulta ho sakta hai, to skip karo.
+3d. Team ka sahi naam: agar match India A / U19 / women / emerging / junior team ka hai to headline aur caption mein wahi likho (jaise "INDIA A"), kabhi sirf "TEAM INDIA" mat likho. Result ulta ya bada mat dikhao (A-team ki haar != Team India out). Stats tile mein "khabar aayi" jaisa filler mat likho, sirf asli number/fact.
+3e. Neta Ji Ki Baatein sirf rajneeti/sarkar/neta ki khabar par banao; share market ya cricket jaisi khabar neta slot mein ho to skip karo.
 3b. Serious post (maut/hadsa/aatank): caption mein "like banta hai", emoji-bhari hype ya engagement-bait nahi; sirf shant, izzat wali line. Masjid/mandir/church jaisi dharmik jagah ka naam mat likho. Har shabd ki spelling dobara check karo (jaise "lashkar", "masjid").
 4. Politics mein kisi party ka paksh mat lo.
 5. Agar koi bhi khabar inme fit na ho to {{"skip": true}} do.
@@ -87,6 +89,9 @@ def write(series_name, items, recent_titles):
     if any("\u0900" <= ch <= "\u097f" or "\u0a00" <= ch <= "\u0a7f" for ch in blob):  # Devanagari/Gurmukhi glitch: font renders badly, Roman only
         print("AI output had Devanagari/Gurmukhi text: skipping slot"); return None, None
     item = items[int(data["pick"])]
+    for k in ("line1", "line2", "line3"):  # fix mixed-case glitches like "HAari"
+        if isinstance(data.get(k), str) and any(c.islower() for c in data[k]) and any(c.isupper() for c in data[k][1:]):
+            data[k] = data[k].upper()
     data["stats"] = (data.get("stats") or [])[:4]
     data["chat"] = (data.get("chat") or [])[:2]
     tags = [t if t.startswith("#") else "#" + t for t in data.get("hashtags", [])][:5]
