@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 3,
+  "serious": false,
+  "tag": "PAANI KA SAWAL",
+  "line1": "Bisleri ke paani par",
+  "line2": "TEST FAIL",
+  "line3": "FSSAI NE KIYA CASE",
+  "sub": "Bisleri ke paani ki jaanch mein cancer element milne par case.",
+  "stats": [
+   {
+    "n": "2 BAAR",
+    "t": "Paani test mein hua fail"
+   },
+   {
+    "n": "FSSAI",
+    "t": "Company par chalega mukadma"
+   }
+  ],
+  "chat": [
+   {
+    "who": "MUMMY",
+    "say": "Beta ab se ghar ka ubala hua paani hi peena!"
+   },
+   {
+    "who": "STUDENT",
+    "say": "Hostel wale filter ka paani peeke amar ho chuke hain."
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Bottled water pe bharosa karne se pehle 10 baar sochna padega.",
+  "icon": "money",
+  "caption": "Bisleri ke paani par aayi badi khabar! \n\n• FSSAI ki jaanch mein paani test mein fail\n• Cancer element milne ka kiya gaya daawa\n• Company par ab chalega mukadma\n\nAise mein toh ab boiling water hi sabse safe option lag raha hai! \n\nSave kar lo, baad mein kaam aayega aur doston ko bhi bhejo!",
+  "hashtags": [
+   "#Bisleri",
+   "#FSSAI",
+   "#WaterSafety",
+   "#NewsUpdate",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: ABP News"
+ },
+ "item": {
+  "title": "Bisleri का पानी 2 बार टेस्ट में फेल, कैंसर तत्व मिलने के बाद कंपनी पर केस",
+  "source": "ABP News",
+  "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNeVloNjItY3daTWlyWmxaekRkd3VzRjVQY2hFMWJPQU5zQWdIVWxIZ015MDBCU1dFUUh5TzBPOVQwOC1GUXozX2xHUUdqWjZRRDc0U3lFUlY4anRCdzVPV04xbHlMSkJqZXFlZ1d4MU9Dbnd3S0NnemRBWE9CejVqUzhNUl9oZERYRkNVLUEycC1VbmR4b3BaazVDLWFfQTVLME5qcVAzR1ZLSjFDRWVLbHFWU3NGVUc2YnRYX3RYWE1jOGdGUWxBdVFOVDJwTnpFZHBYN3FQd1lUcUVoYlU5WDBhSF9qMXdHc3h1X3RJQUtnV3l4QmZucy1GRUpUUdIBgwJBVV95cUxNRm9mOG1NMDhqajEybE4yelFQYmljVGZfeF9sV19OOFZwLVk1S0VZMmRTY1hWNmJGOGo3WkhwUWtFYlFQZlQzNkRqdjlqYWU4TWtBOXpXbHFsQ1BHRXpQSVExZ1h2TWJXeDJ2cTRQUWxOVHdvOHVVVkw0R2hlQmZuLTdvZG5tWC1XWEljZjhpem5teTJQZHB4czNCZTEwOFZ5aTdzYlBXX0l6dEVNcXhVV3Zibkk1clVGZVE3R1RrenFxdDF6RnBhUFVaNDBaYzROamVTdXdCMkxRZEV0QXZEVUNDZFFTTk05aE1meW5mNDZtREtYaFgyYmprUTRlbU9IVlAw?oc=5",
+  "published": "Sun, 22 Nov 2026 17:39:37 GMT",
+  "summary": "Bisleri का पानी 2 बार टेस्ट में फेल, कैंसर तत्व मिलने के बाद कंपनी पर केस ABP News 'FSSAI का नोटिस नहीं आया, थर्ड पार्टी टेस्ट में भी सैंपल पास', आरोपों पर बिसलेरी की सफाई AajTak पीने के लिए सुरक्षित है बिसलेरी का पानी, FSSAI के नोटिस की खबरों पर कंपनी ने जारी किया बयान India TV Hindi बिसलेरी विवाद "
+ }
+}
