@@ -36,6 +36,18 @@ def same_story(title, recent):
     return any(len(t & _toks(r)) >= 2 for r in recent[-40:])
 
 
+def roman_dup(data, days=3):
+    """cross-script dedupe: compare the new Roman headline/sub with recent log.csv headlines
+    (same story arrives as Devanagari from one feed and Roman from another, e.g. Bisleri, wheelchair cricket)"""
+    import csv
+    try:
+        rows = list(csv.reader(open(ROOT / "data" / "log.csv", encoding="utf-8")))[-45:]
+    except OSError:
+        return False
+    new = _toks(" ".join(str(data.get(k, "")) for k in ("line1", "line2", "line3", "sub")))
+    return any(len(new & _toks(r[3])) >= 2 for r in rows if len(r) > 3)
+
+
 def git(*a):
     subprocess.run(["git", *a], cwd=ROOT, check=True)
 
@@ -71,6 +83,8 @@ def main():
     data, item = write(name, items, state["recent"])
     if not data:
         print("AI skipped: nothing suitable"); return
+    if roman_dup(data):
+        print("Skipped: same story as a recent post (Roman headline match)"); return
     if not data.get("serious") and not data.get("tag"):
         data["tag"] = tag
 

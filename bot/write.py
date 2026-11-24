@@ -16,6 +16,7 @@ KADE NIYAM:
 3c. Shabd galat mat badlo: "tareef" (praise) ka matlab tariff NAHI hai, aur "tariff" ka matlab tareef nahi. Headline mein sirf wahi likho jo news kehti hai (jaise Trump ne India ki TAREEF ki, tariff nahi lagaya). Agar headline se khabar ka matlab ulta ho sakta hai, to skip karo.
 3d. Team ka sahi naam: agar match India A / U19 / women / emerging / junior team ka hai to headline aur caption mein wahi likho (jaise "INDIA A"), kabhi sirf "TEAM INDIA" mat likho. Result ulta ya bada mat dikhao (A-team ki haar != Team India out). Stats tile mein "khabar aayi" jaisa filler mat likho, sirf asli number/fact.
 3e. Neta Ji Ki Baatein sirf rajneeti/sarkar/neta ki khabar par banao; share market ya cricket jaisi khabar neta slot mein ho to skip karo.
+3f. Health-scare khabar (cancer, zehar, "jaanch mein fail" etc.) mein jokes/chat nahi, serious=true rakho, sirf source ke confirmed fact likho; "2 BAAR" jaise number tabhi jab source mein ho, warna stat badlo.
 3b. Serious post (maut/hadsa/aatank): caption mein "like banta hai", emoji-bhari hype ya engagement-bait nahi; sirf shant, izzat wali line. Masjid/mandir/church jaisi dharmik jagah ka naam mat likho. Har shabd ki spelling dobara check karo (jaise "lashkar", "masjid").
 4. Politics mein kisi party ka paksh mat lo.
 5. Agar koi bhi khabar inme fit na ho to {{"skip": true}} do.
