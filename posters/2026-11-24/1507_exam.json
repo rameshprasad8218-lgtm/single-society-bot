@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 4,
+  "serious": false,
+  "tag": "MP POLICE EXAM",
+  "line1": "MP POLICE CONSTABLE",
+  "line2": "EXAM 9 DEC",
+  "line3": "SE START",
+  "sub": "MP police constable exam 9 December se hoga start, admit card jald.",
+  "stats": [
+   {
+    "n": "9 Dec",
+    "t": "Exam start date"
+   },
+   {
+    "n": "MP",
+    "t": "State police exam"
+   }
+  ],
+  "chat": [
+   {
+    "who": "STUDENT",
+    "say": "Arre padhai ke liye din bahut kam bache hain!"
+   },
+   {
+    "who": "MUMMY",
+    "say": "Ab phone chhod kar kitab utha lo chupchaap."
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Revision tez kar do, admit card ke liye website check rakho.",
+  "icon": "exam",
+  "caption": "MP Police Constable exam ki date aa gayi hai! Tayari shuru kar do.\n\n• 9 December se exam start\n• Admit card jald honge jari\n• MPESB dwara schedule jaari\n\nAbhi admit card ka wait mat karo, padhai pe dhyan do!\n\nSave kar lo, baad mein kaam aayega.",
+  "hashtags": [
+   "#MPPolice",
+   "#PoliceExam",
+   "#ExamAlert",
+   "#StudyTime",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: Jagran"
+ },
+ "item": {
+  "title": "MP Police Constable Exam Date: एमपी पुलिस कॉन्स्टेबल एग्जाम 9 दिसंबर से होगा स्टार्ट, Admit Card जल्द होंगे जारी",
+  "source": "Jagran",
+  "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOblRiNjZGQVBzN3JPWVdxUm5ZSkMwSzI0ZkozNmNHaTB6WXMzOFc5S0FXbzVLLXNBTDRIazYtbUFleUc5YkxkMFA2eTFtdTNPb0JlbUVGajBzVjg5Z2JvWk9GQlJmejlHenJyeF9DbzZQX0wzQVRxZndnMFYwM080QXpWODBNNlVTR1U0SnBXX1J3ZUNoaUl1eVRfRVd5WHlDdnU3UUhwek5FQlpEYnJhVTB2SVdITllSY3hpMGQ2X2tIOE5Kc0xHNjRqSTN5c2VUeTQtOUk4WVZZZzVMd2VHU3JpanpWeEU3MFYtYS14ZV9DUQ?oc=5",
+  "published": "Mon, 23 Nov 2026 05:26:00 GMT",
+  "summary": "MP Police Constable Exam Date: एमपी पुलिस कॉन्स्टेबल एग्जाम 9 दिसंबर से होगा स्टार्ट, Admit Card जल्द होंगे जारी Jagran"
+ }
+}
