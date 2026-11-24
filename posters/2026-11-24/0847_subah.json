@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 11,
+  "serious": false,
+  "tag": "MEHENGA GHAR",
+  "line1": "Akelay ghar lena",
+  "line2": "HUA MUSHKIL",
+  "line3": "Ajnabiyon ka sath",
+  "sub": "Akele ghar nahi kharid sakte the, toh ajnabiyon ke sath milkar kharid liya.",
+  "stats": [
+   {
+    "n": "1",
+    "t": "Saath milkar ghar"
+   },
+   {
+    "n": "NEW",
+    "t": "Housing trend"
+   }
+  ],
+  "chat": [
+   {
+    "who": "STUDENT",
+    "say": "Kal se mere room mein bhi 3 naye log shift ho rahe hain!"
+   },
+   {
+    "who": "BOSS",
+    "say": "Toh ab rent bhi sabhi me barabar batega."
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Real estate me naya jugaad, ab share market ki tarah ghar bhi share honge!",
+  "icon": "money",
+  "caption": "Mehengai ka naya tod! Akele flat lena ab sapna lagne laga hai, toh logon ne naya rasta nikal liya.\n\n🏡 Akele ghar lena hua mushkil\n🤝 Ajnabiyon ke sath milkar kharida ghar\n💰 Budget ki kami ka naya jugaad\n\nSave kar lo, baad mein kaam aayega jab doston ke sath flat lena pade!\n\nComment mein batao: Aap kis-kis ke sath ghar share karna chahoge?",
+  "hashtags": [
+   "#RealEstate",
+   "#Housing",
+   "#Mehengai",
+   "#Flatmates",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: BBC"
+ },
+ "item": {
+  "title": "'हम अकेले घर नहीं ख़रीद सकते थे, इसलिए कुछ अजनबियों के साथ मिलकर ख़रीद लिया'",
+  "source": "BBC",
+  "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wd0Z0ZWNpRzFTSlh2aEdnc3VFdG5yVlFBTjRnYWtYdkMwZVJFQ2F0MHAyRHpLZ2NObXJoOXg3SjBRdkJwaTJGUEhBNXlxNVVXelZtaU9EbmY3bTZs0gFiQVVfeXFMUFRIemxPdkF4MTVXUHZMbFlhLXZBLTlsTFkteXlSVUNraEUyS2VWbVpvQU5tcUxLdmdrUDhuTjVraVdndWJVeXgwZFBIX3lJdlhrYlhqbTNiRHV0UTFJSlZFYVE?oc=5",
+  "published": "Tue, 24 Nov 2026 02:12:37 GMT",
+  "summary": "'हम अकेले घर नहीं ख़रीद सकते थे, इसलिए कुछ अजनबियों के साथ मिलकर ख़रीद लिया' BBC"
+ }
+}
