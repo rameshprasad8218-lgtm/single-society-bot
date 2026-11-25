@@ -1,0 +1,49 @@
+{
+ "data": {
+  "pick": 6,
+  "serious": false,
+  "tag": "MARUTI MEHENGI",
+  "line1": "Maruti ki gaadiyan",
+  "line2": "FIR HUI",
+  "line3": "MEHENGI!",
+  "sub": "Is saal chauthi baar badhi Maruti ki caro ki keematein.",
+  "stats": [
+   {
+    "n": "4 BAAR",
+    "t": "is saal badhe daam"
+   },
+   {
+    "n": "1",
+    "t": "car brand mehenga"
+   }
+  ],
+  "chat": [
+   {
+    "who": "CUSTOMER",
+    "say": "Abhi toh EMI khatam hui thi!"
+   },
+   {
+    "who": "DEALER",
+    "say": "Sir, agle saal phir badhenge."
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Car khareedne ka sapna aur door ho gaya.",
+  "icon": "money",
+  "caption": "Car khareedne ki soch rahe ho toh jaldi karo!\n🚗 Is saal chauthi baar badhe daam\n💸 Maruti ki gaadiyan hui mehngisi\n📉 Pocket par padega bhaari asar\n\nSave kar lo, baad mein kaam aayega!",
+  "hashtags": [
+   "#MarutiSuzuki",
+   "#CarPriceHike",
+   "#Mehngai",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: ABP News"
+ },
+ "item": {
+  "title": "Maruti Suzuki Price Hike: मारुति की कारें फिर हुईं महंगी, इस साल चौथी बार बढ़ी कीमतें, जानें वजह",
+  "source": "ABP News",
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeGZta2h1dzFXQUZSM1RDN21qaDFqZHA2eFZwTW5maER0LXU0MUhJUTRvbVp4S2NpSW1DUl9yU2V2Vk9MVnJWQnAtS2pacEM3Z1hob3d1eTg0T0RpQXNVYnkzVHBqYXFKQzhOUTd4SWdqS0xHZm1xRDJieUVQYlhpdTlzSFlKRm1LU1FabGRUaV93cHhLZHlyb0FueHdSLTA50gGmAUFVX3lxTE9CMFdXc3ZxeUctWG5pbVExbVJWOHhPY2l1WkNrNEgycUhJQzNkYUV2TmdXZzNaQk1UZVJkX3FhSTVYWGowa0N5am11MWtkNzlFeUYtZjRCZHN2X0tPYnpCVE45LUZ4aEtvZ0FMTjZpSjZqdG5kOXZCaE9QNHg4Z0luQnJNV2ZwS0o0dFZ1cGpnTzhXNUNsaHB1QXlFMW9ZVGxUZlpUMEE?oc=5",
+  "published": "Tue, 24 Nov 2026 10:37:40 GMT",
+  "summary": "Maruti Suzuki Price Hike: मारुति की कारें फिर हुईं महंगी, इस साल चौथी बार बढ़ी कीमतें, जानें वजह ABP News"
+ }
+}
