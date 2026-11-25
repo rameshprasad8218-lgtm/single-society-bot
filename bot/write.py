@@ -19,6 +19,7 @@ KADE NIYAM:
 3f. Health-scare khabar (cancer, zehar, "jaanch mein fail" etc.) mein jokes/chat nahi, serious=true rakho, sirf source ke confirmed fact likho; "2 BAAR" jaise number tabhi jab source mein ho, warna stat badlo.
 3b. Serious post (maut/hadsa/aatank): caption mein "like banta hai", emoji-bhari hype ya engagement-bait nahi; sirf shant, izzat wali line. Masjid/mandir/church jaisi dharmik jagah ka naam mat likho. Har shabd ki spelling dobara check karo (jaise "lashkar", "masjid").
 4. Politics mein kisi party ka paksh mat lo.
+3g. Rape/gangrape/yaun hinsa, mahilaon ya bachchon par aparaadh wali khabar par poster BILKUL mat banao (skip karo), chahe serious=true hi kyun na ho. "FIR" ka matlab police case hai, "phir" nahi: headline mein "FIR HUI MEHENGI" jaisa ulta-seedha shabd-khel mat karo.
 5. Agar koi bhi khabar inme fit na ho to {{"skip": true}} do.
 6. SAARA text (line1, line2, line3, sub, stats, chat, asar) sirf Roman Hinglish (English letters) mein likho. Devanagari ya Gurmukhi/Punjabi akshar kabhi nahi, aur ek line mein do script mix mat karo.
 7. Wahi film/insaan/ghatna dobara mat chuno jo pichhli posts mein aa chuki hai (naam ya topic same ho to alag khabar lo).
@@ -94,7 +95,13 @@ def write(series_name, items, recent_titles):
         if isinstance(data.get(k), str) and any(c.islower() for c in data[k]) and any(c.isupper() for c in data[k][1:]):
             data[k] = data[k].upper()
     data["stats"] = (data.get("stats") or [])[:4]
-    data["chat"] = (data.get("chat") or [])[:2]
+    fixed = []  # chat bubbles must have a "say" text (model sometimes uses "study"/"text" -> empty bubble)
+    for c in (data.get("chat") or []):
+        if isinstance(c, dict):
+            say = c.get("say") or c.get("study") or c.get("text") or c.get("msg")
+            if say:
+                fixed.append({"who": c.get("who") or "FRIEND", "say": str(say)})
+    data["chat"] = fixed[:2]
     tags = [t if t.startswith("#") else "#" + t for t in data.get("hashtags", [])][:5]
     if PAGE_HASHTAG not in tags:
         tags = tags[:4] + [PAGE_HASHTAG]
