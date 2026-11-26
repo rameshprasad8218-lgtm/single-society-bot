@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 1,
+  "serious": false,
+  "tag": "CRICKET RECORD",
+  "line1": "Test cricket mein",
+  "line2": "BANA RECORD",
+  "line3": "Duniya yaad rakhegi",
+  "sub": "Wiaan Mulder ne test cricket mein banaya sabse anokha record.",
+  "stats": [
+   {
+    "n": "1",
+    "t": "Anokha record"
+   },
+   {
+    "n": "TEST",
+    "t": "Cricket match"
+   }
+  ],
+  "chat": [
+   {
+    "who": "CRICKET FAN",
+    "say": "Bhai yeh record maine pehle kabhi nahi dekha!"
+   },
+   {
+    "who": "EXPERT",
+    "say": "Wiaan Mulder ne kamaal kar diya aaj toh."
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Cricket history mein ek naya chapter jud gaya bhai.",
+  "icon": "cricket",
+  "caption": "Test cricket ka sabse naya aur alag record ban gaya hai dost!\n\n🏏 Wiaan Mulder ne racha naya itihas\n🌍 Duniya yaad rakhegi yeh naam\n\nAise records roz-roz nahi dekhne ko milte bhai!\n\nComment mein batao: Aapke hisaab se yeh sabse bada record hai kya?",
+  "hashtags": [
+   "#WiaanMulder",
+   "#TestCricket",
+   "#CricketNews",
+   "#CricketKaTadka",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: Jagran"
+ },
+ "item": {
+  "title": "वियान मुल्‍डर - दुनिया याद रखेगी नाम, टेस्‍ट क्रिकेट में बना डाला सबसे अनोखा रिकॉर्ड",
+  "source": "Jagran",
+  "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNT01YNHh2ZXJvM1pLTFdQOEd0Q2UzeU1jR3BjVk9uaTlmZFE1ZGM5NnpJaHJJX1ZPTEVUQjluc3lSMW04TFdSU1BoTm5ZTmtoTk1jcVBMNVZnek9sY21vQzhrT2U2VGNvNWdOWm5odURZdkNwdWRJNGs1cC03Skxob29wZThBaS1GemdmRGU1eG9RenBQd2QzbUh5R2VId213c1lLbTF5ZmREdmxZcFhZTW9sOVJOb2JtTTJrUDhvcUNLU1BueF93bV93Slc1bTNqMjlFRmNoblgzaHF6YzI1U0FscHF5WFlPUTRGcGE3RVBGM2JJZkxZVS1PYw?oc=5",
+  "published": "Wed, 25 Nov 2026 14:41:00 GMT",
+  "summary": "वियान मुल्‍डर - दुनिया याद रखेगी नाम, टेस्‍ट क्रिकेट में बना डाला सबसे अनोखा रिकॉर्ड Jagran"
+ }
+}
