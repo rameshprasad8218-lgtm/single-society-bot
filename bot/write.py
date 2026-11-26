@@ -1,4 +1,4 @@
-import json, os, time, requests
+import difflib, json, os, re, time, requests
 from .config import GEMINI_MODEL, MAX_ITEMS_TO_AI, PAGE_HASHTAG
 
 PROMPT = """Tum "Single Society" naam ke Instagram news page ke head writer ho.
@@ -19,6 +19,7 @@ KADE NIYAM:
 3f. Health-scare khabar (cancer, zehar, "jaanch mein fail" etc.) mein jokes/chat nahi, serious=true rakho, sirf source ke confirmed fact likho; "2 BAAR" jaise number tabhi jab source mein ho, warna stat badlo.
 3b. Serious post (maut/hadsa/aatank): caption mein "like banta hai", emoji-bhari hype ya engagement-bait nahi; sirf shant, izzat wali line. Masjid/mandir/church jaisi dharmik jagah ka naam mat likho. Har shabd ki spelling dobara check karo (jaise "lashkar", "masjid").
 4. Politics mein kisi party ka paksh mat lo.
+4b. Dharm se judi vivad wali khabar (mandir, masjid, church, dargah, deepam, namaz, Hindu-Muslim) bilkul mat chuno, rajneeti slot mein bhi nahi.
 3g. Rape/gangrape/yaun hinsa, mahilaon ya bachchon par aparaadh wali khabar par poster BILKUL mat banao (skip karo), chahe serious=true hi kyun na ho. "FIR" ka matlab police case hai, "phir" nahi: headline mein "FIR HUI MEHENGI" jaisa ulta-seedha shabd-khel mat karo.
 5. Agar koi bhi khabar inme fit na ho to {{"skip": true}} do.
 6. SAARA text (line1, line2, line3, sub, stats, chat, asar) sirf Roman Hinglish (English letters) mein likho. Devanagari ya Gurmukhi/Punjabi akshar kabhi nahi, aur ek line mein do script mix mat karo.
@@ -29,6 +30,7 @@ KADE NIYAM:
 Sirf yeh JSON do:
 {{
  "pick": <chuni khabar ka index number>,
+ "source_title": "<chuni khabar ka title, jaisa neeche likha hai waisa hi copy karo (isme script mat badlo)>",
  "serious": false,
  "tag": "<2-3 shabd, CAPS, jaise DOODH MEHENGA>",
  "line1": "<headline ka chhota hissa, max 22 akshar>",
@@ -47,6 +49,23 @@ Sirf yeh JSON do:
 KHABREIN:
 {items}
 """
+
+# religious disputes must never reach a humour poster (13:21 on 26 Nov: Deepam vivad went out with jokes)
+RELIGION = re.compile(
+    r"\b(mandir|masjid|mosque|temple|church|dargah|gurudwara|gurdwara|namaz|deepam|hindu|hinduon|muslim|musalman|"
+    r"dharm parishad|dharmik vivad)\b|मंदिर|मस्जिद|दरगाह|गुरुद्वारा|नमाज|हिंदू|हिन्दू|मुस्लिम", re.I)
+
+
+def pick_item(data, items):
+    """the model sometimes returns a wrong "pick" index (poster about one story, source/link of another):
+    trust the copied title over the index; return None if nothing matches."""
+    want = str(data.get("source_title") or "").strip().lower()
+    if not want:
+        return None
+    score, item = max(
+        ((difflib.SequenceMatcher(None, want, it["title"].lower(), autojunk=False).ratio(), it) for it in items),
+        key=lambda x: x[0])
+    return item if score >= 0.6 else None
 
 
 def write(series_name, items, recent_titles):
@@ -90,7 +109,13 @@ def write(series_name, items, recent_titles):
     blob = json.dumps({k: data.get(k) for k in ("line1", "line2", "line3", "sub", "stats", "chat", "asar")}, ensure_ascii=False)
     if any("\u0900" <= ch <= "\u097f" or "\u0a00" <= ch <= "\u0a7f" for ch in blob):  # Devanagari/Gurmukhi glitch: font renders badly, Roman only
         print("AI output had Devanagari/Gurmukhi text: skipping slot"); return None, None
-    item = items[int(data["pick"])]
+    item = pick_item(data, items)
+    if item is None:
+        print("AI source_title matches no news item: skipping slot"); return None, None
+    check = json.dumps({k: data.get(k) for k in ("tag", "line1", "line2", "line3", "sub", "stats", "chat", "asar", "caption")},
+                       ensure_ascii=False) + " " + item["title"]
+    if RELIGION.search(check):
+        print("Religion-related story: skipping slot"); return None, None
     for k in ("line1", "line2", "line3"):  # fix mixed-case glitches like "HAari"
         if isinstance(data.get(k), str) and any(c.islower() for c in data[k]) and any(c.isupper() for c in data[k][1:]):
             data[k] = data[k].upper()
