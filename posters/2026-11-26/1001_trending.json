@@ -1,0 +1,50 @@
+{
+ "data": {
+  "pick": 1,
+  "serious": false,
+  "tag": "NEW TARIFF",
+  "line1": "AMERICA KA",
+  "line2": "DOUBLE GAME",
+  "line3": "NEW TARIFF LAGA",
+  "sub": "America ne Bharat samet kai desho par naye tariff lagane ka kiya elaan.",
+  "stats": [
+   {
+    "n": "17%",
+    "t": "Tariff risk"
+   },
+   {
+    "n": "25%",
+    "t": "Max tariff"
+   }
+  ],
+  "chat": [
+   {
+    "who": "STUDENT",
+    "say": "Sir ye US economy ki class me padhna padega kya?"
+   },
+   {
+    "who": "BOSS",
+    "say": "Padhna na pade, jeb pe asar zaroor padega!"
+   }
+  ],
+  "asar_label": "TUMPE ASAR",
+  "asar": "Global trade badalne se aam cheezein aur import mehangey ho sakte hain.",
+  "icon": "money",
+  "caption": "US ke naye tariff elaan se global market mein halchal mach gayi hai!\n\n🔹 America ne kai desho par naye tariff lagane ka kiya elaan\n🔹 17% ya 25% tak tariff ki charcha\n🔹 Bharat ke sath trade deal par bhi nazar\n\nSave kar lo, baad mein kaam aayega!\n\nComment mein batao: iska kya asar hoga?",
+  "hashtags": [
+   "#America",
+   "#Tariff",
+   "#USNews",
+   "#GlobalEconomy",
+   "#SingleSociety"
+  ],
+  "source_text": "Source: BBC"
+ },
+ "item": {
+  "title": "अमेरिका ने भारत समेत कई देशों पर नए टैरिफ़ लगाने का किया एलान",
+  "source": "BBC",
+  "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zMWxfUVE2M2I4VXFQOThyTWV0TGZjQlFsMGlnc1ZNcXNrWFB0WmRQUlNJZDRtLVQzNkdNNDhRWUpWR2hUQ1lJMUd5MVRfUTVXZko5S3p2WDFickts0gFiQVVfeXFMTXhWbGNiM21seU50d1FsSEgxa1pZWlJUcXNJYW5TemVWQVZhN2hGaWxFWDdqUFk2S21oYUxQNEJxaDZISmhGakp5WDNscFY2RGlWdmVNUTU2RGd0djhXMGJmSVE?oc=5",
+  "published": "Thu, 26 Nov 2026 01:44:05 GMT",
+  "summary": "अमेरिका ने भारत समेत कई देशों पर नए टैरिफ़ लगाने का किया एलान BBC Donald Trump Double Game: ट्रंप का 'डबल गेम'... 17% या 25% टैरिफ, भारत को ट्रेड डील पर राजी कर पाएंगे? समझें नफा-नुकसान AajTak चीन, यूरोपीय संघ और 14 अन्य देशों पर जल्द ही टैरिफ बढ़ा सकता है अमेरिका, सामने आई ये बड़ी वजह India TV Hind"
+ }
+}
