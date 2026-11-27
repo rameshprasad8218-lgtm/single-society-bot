@@ -102,6 +102,17 @@ def render(d, out_png):
   let fs = parseFloat(getComputedStyle(el).fontSize);
   while (el.getBoundingClientRect().width > max && fs > 14) { fs -= 2; el.style.fontSize = fs + 'px'; }
 })""")
+        # long chat/asar text pushed the last box under the footer (17:26 on 27 Nov): shrink chat until it fits
+        pg.evaluate("""() => {
+  const chat = document.querySelector('.chat'), limit = 1350 - 96 - 12;
+  const bottom = () => chat.lastElementChild ? chat.lastElementChild.getBoundingClientRect().bottom : 0;
+  let s = 1;
+  while (bottom() > limit && s > 0.7) {
+    s -= 0.03;
+    chat.querySelectorAll('.b').forEach(b => { b.style.fontSize = 28*s+'px'; b.style.padding = 14*s+'px 26px'; b.style.marginBottom = 14*s+'px'; });
+    chat.querySelectorAll('small').forEach(t => t.style.fontSize = 20*s+'px');
+  }
+}""")
         pg.screenshot(path=out_png)
         b.close()
     return html
