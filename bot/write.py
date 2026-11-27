@@ -131,5 +131,7 @@ def write(series_name, items, recent_titles):
     if PAGE_HASHTAG not in tags:
         tags = tags[:4] + [PAGE_HASHTAG]
     data["hashtags"] = tags
+    # model sometimes writes hashtags inside the caption too, and main.py appends them again (10 tags): drop those
+    data["caption"] = re.sub(r"[ \t]*(?<!\w)#\w+", "", str(data.get("caption") or "")).strip()
     data["source_text"] = f"Source: {item['source'] or 'Google News'}"
     return data, item
