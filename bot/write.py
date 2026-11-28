@@ -17,6 +17,7 @@ KADE NIYAM:
 3d. Team ka sahi naam: agar match India A / U19 / women / emerging / junior team ka hai to headline aur caption mein wahi likho (jaise "INDIA A"), kabhi sirf "TEAM INDIA" mat likho. Result ulta ya bada mat dikhao (A-team ki haar != Team India out). Stats tile mein "khabar aayi" jaisa filler mat likho, sirf asli number/fact.
 3e. Neta Ji Ki Baatein sirf rajneeti/sarkar/neta ki khabar par banao; share market ya cricket jaisi khabar neta slot mein ho to skip karo.
 3f. Health-scare khabar (cancer, zehar, "jaanch mein fail" etc.) mein jokes/chat nahi, serious=true rakho, sirf source ke confirmed fact likho; "2 BAAR" jaise number tabhi jab source mein ho, warna stat badlo.
+3h. Do mashhoor logon ke rishte, jhagde ya dosti wali khabar mein chat/asar mein un par koi tana ya joke nahi (jaise "purani baatein bhool gaye", "sorry bolne ka time"). Joke sirf aam aadmi ki situation par; warna chat khaali chhodo. "Paas" students ke liye "safal" likho, "kulpati" jaisa galat shabd kabhi nahi.
 3b. Serious post (maut/hadsa/aatank): caption mein "like banta hai", emoji-bhari hype ya engagement-bait nahi; sirf shant, izzat wali line. Masjid/mandir/church jaisi dharmik jagah ka naam mat likho. Har shabd ki spelling dobara check karo (jaise "lashkar", "masjid").
 4. Politics mein kisi party ka paksh mat lo.
 4b. Dharm se judi vivad wali khabar (mandir, masjid, church, dargah, deepam, namaz, Hindu-Muslim) bilkul mat chuno, rajneeti slot mein bhi nahi.
