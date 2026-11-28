@@ -54,6 +54,8 @@ body{width:1080px;height:1350px;font-family:'Poppins',sans-serif;overflow:hidden
 .serious .st{background:#1d1d1d;color:#fff;border-color:#444;box-shadow:none}.serious .st .t{color:#ccc}
 .serious .st:first-child{background:#fff;color:#111}.serious .st:first-child .t{color:#333}
 .serious .b1{background:#1d1d1d;color:#fff;border-color:#444}
+/* no chat bubbles (serious posts): move the block down so the bottom third is not empty */
+.calm .tag{top:290px}.calm .head{top:370px}.calm .icon{top:310px}.calm .sub{top:775px}.calm .stats{top:865px}.calm .chat{top:1055px!important}
 """
 
 
@@ -75,8 +77,9 @@ def build_html(d):
         bubbles += f'<div class="b b1"><small>{E(d.get("asar_label") or "TUMPE ASAR")}</small>{E(d["asar"])}</div>'
     icon = ICONS.get(d.get("icon"), ICONS["alert"])
     chat_top = 850 if not serious else 870
+    calm = "" if (not serious and d.get("chat")) else " calm"
     return f"""<!DOCTYPE html><html><head><meta charset="utf-8"><style>{CSS}</style></head>
-<body class="{'serious' if serious else 'fun'}" style="{theme}">
+<body class="{'serious' if serious else 'fun'}{calm}" style="{theme}">
 <div class="dots"></div>
 <div class="top"><div class="brand">{E(PAGE_NAME)}</div><div class="live"><i></i>{'UPDATE' if serious else 'BREAKING'}</div></div>
 <div class="tag">{E(d.get('tag'))}</div>
